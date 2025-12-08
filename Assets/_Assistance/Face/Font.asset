@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3deb02064ce2d1448e5fb760e8674be, type: 3}
+  m_Name: Font
+  m_EditorClassIdentifier: 
+  clips:
+  - key: 0
+    startFrame: 57
+    endFrame: 57
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 1
+    startFrame: 48
+    endFrame: 48
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 2
+    startFrame: 49
+    endFrame: 49
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 3
+    startFrame: 50
+    endFrame: 50
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 4
+    startFrame: 51
+    endFrame: 51
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 5
+    startFrame: 52
+    endFrame: 52
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 6
+    startFrame: 53
+    endFrame: 53
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 7
+    startFrame: 54
+    endFrame: 54
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 8
+    startFrame: 55
+    endFrame: 55
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 9
+    startFrame: 56
+    endFrame: 56
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: A-1
+    startFrame: 61
+    endFrame: 61
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: A-2
+    startFrame: 62
+    endFrame: 62
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: A-3
+    startFrame: 63
+    endFrame: 63
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0

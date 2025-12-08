@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3deb02064ce2d1448e5fb760e8674be, type: 3}
+  m_Name: FaceEmojiClipSet
+  m_EditorClassIdentifier: 
+  clips:
+  - key: Idle
+    startFrame: 0
+    endFrame: 3
+    fps: 2
+    playMode: 1
+    loopDelay: 5
+    loopDelayFrame: 2
+    loopDelayRandomMin: 1
+    loopDelayRandomMax: 5
+  - key: Angry
+    startFrame: 4
+    endFrame: 7
+    fps: 2
+    playMode: 1
+    loopDelay: 5
+    loopDelayFrame: 6
+    loopDelayRandomMin: 1
+    loopDelayRandomMax: 5
+  - key: Laugh
+    startFrame: 16
+    endFrame: 19
+    fps: 2
+    playMode: 1
+    loopDelay: 5
+    loopDelayFrame: 18
+    loopDelayRandomMin: 1
+    loopDelayRandomMax: 5
+  - key: Stupid
+    startFrame: 8
+    endFrame: 11
+    fps: 2
+    playMode: 1
+    loopDelay: 5
+    loopDelayFrame: 11
+    loopDelayRandomMin: 1
+    loopDelayRandomMax: 5
+  - key: Cheering
+    startFrame: 20
+    endFrame: 23
+    fps: 2
+    playMode: 1
+    loopDelay: 5
+    loopDelayFrame: 22
+    loopDelayRandomMin: 1
+    loopDelayRandomMax: 5
+  - key: Bored
+    startFrame: 24
+    endFrame: 27
+    fps: 2
+    playMode: 1
+    loopDelay: 5
+    loopDelayFrame: 26
+    loopDelayRandomMin: 1
+    loopDelayRandomMax: 5
+  - key: Pickup
+    startFrame: 14
+    endFrame: 14
+    fps: 2
+    playMode: 0
+    loopDelay: 0
+    loopDelayFrame: -1
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0

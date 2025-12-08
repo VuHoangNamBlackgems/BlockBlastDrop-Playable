@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3418108890929637746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 25627050890414903}
+  - component: {fileID: 1420080990467371934}
+  m_Layer: 0
+  m_Name: GameConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &25627050890414903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418108890929637746}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.4934843, y: 3.5958452, z: -16.887032}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1420080990467371934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418108890929637746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e90e3dd730413734fba3e4a835f4427c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorEnemyList:
+  - {fileID: 2100000, guid: 563e875e4dad66546bd3773b712115aa, type: 2}
+  - {fileID: 2100000, guid: 7d2b05d8dbd16be4d8b565cc4ee15a64, type: 2}
+  - {fileID: 2100000, guid: e1c534adf8a268546bb6ec086f1168d7, type: 2}
+  - {fileID: 2100000, guid: e5ad95c9646b4fa4696fb0cbac3b37bf, type: 2}
+  - {fileID: 2100000, guid: 4391d5d60f10a31408f85efed5c24c80, type: 2}
+  - {fileID: 2100000, guid: 09291b41dbaad614889247071c63dedd, type: 2}
+  - {fileID: 2100000, guid: 0d8b08b769379b8408feed06a6a46141, type: 2}
+  - {fileID: 2100000, guid: 3e6ded2c6984e7c4fbb5c58732935187, type: 2}
+  colorCubeList:
+  - {fileID: 2100000, guid: d2dce1f57621f784bb8e30e05713a5e8, type: 2}
+  - {fileID: 2100000, guid: 460468b963c6b754db6dbca079181f94, type: 2}
+  - {fileID: 2100000, guid: 87e7de3fd7eac2c4088b5b0e23bd2c26, type: 2}
+  - {fileID: 2100000, guid: 3bec86d3d97cceb4ca774a3fce566bf3, type: 2}
+  - {fileID: 2100000, guid: 670d921403efe65469f44f8c9bb0903a, type: 2}
+  - {fileID: 2100000, guid: d7099671d1f9f084ea27c964fd51a347, type: 2}
+  - {fileID: 2100000, guid: 5f253731aab14d243b46d26c27b627b0, type: 2}
+  - {fileID: 2100000, guid: 05db8fca33c6b6441bc6e54ad0ae14fb, type: 2}
+  colorCanonList:
+  - {fileID: 2100000, guid: 843d87d32e5673e4ea554e589d015c8c, type: 2}
+  - {fileID: 2100000, guid: 470fb5e815626d044a44e2ea76da388a, type: 2}
+  - {fileID: 2100000, guid: 5e053b3fd7e136d4a8f3b384e8d3b4fe, type: 2}
+  - {fileID: 2100000, guid: 3c1fe64bc252b4a4e92dcd63eb1c80dd, type: 2}
+  - {fileID: 2100000, guid: 4aa7eceed4efcb849974669c8a403789, type: 2}
+  - {fileID: 2100000, guid: 0b4f76d8ab85eb04e891c4fec1a8112d, type: 2}
+  - {fileID: 2100000, guid: 49ba33af422225942a05c6d00c107312, type: 2}
+  - {fileID: 2100000, guid: 7bcdb695c26574d4f8a5666606017af5, type: 2}
+  colorHoleList:
+  - {fileID: 2100000, guid: 0f817d41a30df734c821235120f69fdf, type: 2}
+  - {fileID: 2100000, guid: 22fc18801464b784b9d1963dfdbdbf7a, type: 2}
+  - {fileID: 2100000, guid: ee280f60eb89802409ca9309e3deb6d5, type: 2}
+  - {fileID: 2100000, guid: 4069dfc3e75b1384a90c36a24f3f79a6, type: 2}
+  - {fileID: 2100000, guid: a6697474771730547bbca01c278b1735, type: 2}
+  - {fileID: 2100000, guid: 7f3192ad2f0d7f64ebf77a0d25b48d58, type: 2}
+  - {fileID: 2100000, guid: 1c96748ffbe05874a8fd07875edb9fcd, type: 2}
+  - {fileID: 2100000, guid: 7cb463148747db34a8bbc8cf1bc0d17d, type: 2}
+  colorBloodList:
+  - {fileID: 2100000, guid: 346dd435b894cf44d863c28be2855f6b, type: 2}
+  - {fileID: 2100000, guid: b710becc5eac80d41b09b50b3471f5d4, type: 2}
+  - {fileID: 2100000, guid: dcde719c5c22abf49a460d419e5cc6b9, type: 2}
+  - {fileID: 2100000, guid: dad4ef949da9ea04cafe0a6117e67545, type: 2}
+  - {fileID: 2100000, guid: bce93e4ce30e0604dae293cca374f8cc, type: 2}
+  - {fileID: 2100000, guid: f08a51eb0b77a8444a6e0e75e4c9abae, type: 2}
+  - {fileID: 2100000, guid: d1daa3640c3bcd140a07309099012b65, type: 2}
+  - {fileID: 2100000, guid: ffbbf03d32e7c2341a0b4c650c2b27a4, type: 2}
+  colorGroundList:
+  - {fileID: 2100000, guid: 61b85e0937753cf40996d3b8e74404de, type: 2}
+  - {fileID: 2100000, guid: cd004330f68c48a42851cecb771e2b78, type: 2}
+  - {fileID: 2100000, guid: 12101e9f38307894386d5666e31d0919, type: 2}
+  - {fileID: 2100000, guid: e89792a7c8694d1469f39286b83d48a0, type: 2}
+  - {fileID: 2100000, guid: 9a7993141a886e047bbb928fd081bf4e, type: 2}
+  - {fileID: 2100000, guid: 8a7c7f921abc23041b804a06583380ef, type: 2}
+  - {fileID: 2100000, guid: d9b9d323cce546d4da81f3d5bd823055, type: 2}
+  - {fileID: 2100000, guid: 3b6010ce62bccf647ae31badba85b351, type: 2}
+  BonusGoldRate: 200
+  BonusHeartRate: 0

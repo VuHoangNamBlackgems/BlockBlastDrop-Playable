@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8583035425324179169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3820131375104756230}
+  - component: {fileID: 6449948550045320058}
+  - component: {fileID: 8468722926806537880}
+  - component: {fileID: 581303243258446633}
+  m_Layer: 0
+  m_Name: Font
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3820131375104756230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8583035425324179169}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1.01}
+  m_LocalScale: {x: 0.15, y: 1, z: 0.120000005}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!33 &6449948550045320058
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8583035425324179169}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8468722926806537880
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8583035425324179169}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52e5b89fb8abb241ac55f20655aec3e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &581303243258446633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8583035425324179169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b406ca04b14110844948959de4d069fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetRenderer: {fileID: 8468722926806537880}
+  materialIndex: 0
+  clips:
+  - key: 0
+    startFrame: 57
+    endFrame: 57
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 1
+    startFrame: 48
+    endFrame: 48
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 2
+    startFrame: 49
+    endFrame: 49
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 3
+    startFrame: 50
+    endFrame: 50
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 4
+    startFrame: 51
+    endFrame: 51
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 5
+    startFrame: 52
+    endFrame: 52
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 6
+    startFrame: 53
+    endFrame: 53
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 7
+    startFrame: 54
+    endFrame: 54
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 8
+    startFrame: 55
+    endFrame: 55
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  - key: 9
+    startFrame: 56
+    endFrame: 56
+    fps: 2
+    playMode: 1
+    loopDelay: 0
+    loopDelayFrame: 0
+    loopDelayRandomMin: 0
+    loopDelayRandomMax: 0
+  clipSet: {fileID: 11400000, guid: 5ff2f53e06cd109439d59b5ec8eb2c3c, type: 2}
+  loadClipsFromSetOnAwake: 1
+  defaultClip: 0
+  playOnStart: 0
+  useUnscaledTime: 1
+  columns: 4
+  rows: 4
