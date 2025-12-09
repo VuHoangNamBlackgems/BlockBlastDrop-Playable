@@ -7158,7 +7158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4642ab74a6480d44e8b9aa3d9884f502, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
+  speed: 150
+  targetEnemyInstance: {fileID: 0}
   GridRef: {fileID: 0}
   expectedColorId: -1
   canonColorId: -1

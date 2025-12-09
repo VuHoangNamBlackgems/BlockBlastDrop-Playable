@@ -12,7 +12,6 @@ public class UIEndLevel : MonoBehaviour
 
     [SerializeField] ParticleSystem[] lsConfetti;
 
-    BoardController boardController => BoardController.Instance;
 
     private void Awake()
     {

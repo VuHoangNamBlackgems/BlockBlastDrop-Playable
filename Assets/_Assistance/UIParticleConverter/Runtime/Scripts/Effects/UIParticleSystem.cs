@@ -222,16 +222,16 @@ namespace UnityEngine.UI.Extensions
                         case ParticleSystemAnimationType.SingleRow:
                             frame = Mathf.FloorToInt(frameProgress * textureSheetAnimation.numTilesX);
 
-                            int row = textureSheetAnimation.rowIndex;
-#if UNITY_2020 || UNITY_2019
-                            if (textureSheetAnimation.rowMode == ParticleSystemAnimationRowMode.Random)
-#else
-                            var fixRowMode = textureSheetAnimation.rowMode;
-                            if (fixRowMode == ParticleSystemAnimationRowMode.Random)
-#endif
-                            { // FIXME - is this handled internally by rowIndex?
+                            int row;
+                            if (textureSheetAnimation.useRandomRow)
+                            {
                                 row = Mathf.Abs((int)particle.randomSeed % textureSheetAnimation.numTilesY);
                             }
+                            else
+                            {
+                                row = textureSheetAnimation.rowIndex;
+                            }
+
                             frame += row * textureSheetAnimation.numTilesX;
                             break;
 

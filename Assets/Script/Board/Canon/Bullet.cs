@@ -5,7 +5,7 @@ public class Bullet : MonoBehaviour
 {
     public float speed = 70f;
     private Transform target;
-    private EnemyController targetEnemyInstance;
+    public EnemyController targetEnemyInstance;
     private bool isMoving;
     public Action<Bullet> OnDespawn;
     public EnemyGridManager GridRef;
@@ -51,7 +51,10 @@ public class Bullet : MonoBehaviour
         Vector3 dir = (target.position + new Vector3(0, 1, 0)) - transform.position;
         float distanceThisFrame = speed * Time.deltaTime;
         float mag = dir.magnitude;
-        if (mag <= distanceThisFrame) { OnTargetReached(); return; }
+        if (mag <= distanceThisFrame)
+        {
+            OnTargetReached(); return;
+        }
         transform.position += (dir / mag) * distanceThisFrame;
         transform.rotation = Quaternion.LookRotation(dir);
     }

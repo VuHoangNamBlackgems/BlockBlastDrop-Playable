@@ -8,7 +8,8 @@ public class Cube : MonoBehaviour
     [SerializeField] FaceEmoji faceEmoji;
     [SerializeField] FontController text;
 
-    private Grid grid;
+
+    public Grid grid;
 
     BoardController boardController => BoardController.Instance;
     private void Awake()

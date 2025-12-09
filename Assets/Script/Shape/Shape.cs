@@ -36,7 +36,6 @@ public class Shape : MonoBehaviour
 
     private readonly List<GameObject> _currentShape = new List<GameObject>();
     private Transform visualShape;
-    Vector3 originScaleVisualShape;
     private Vector3 originVisualShape;
     private Vector3 originPosTextNumber;
 
@@ -69,7 +68,6 @@ public class Shape : MonoBehaviour
     private float CurrentSquareSize => grid ? (grid.squareGap + grid.squareScale) : 1f;
 
     BoardController boardController => BoardController.Instance;
-    UITutorial uiTutorial => UITutorial.Instance;
 
     private void Awake()
     {
@@ -79,7 +77,6 @@ public class Shape : MonoBehaviour
         visualShape = transform.GetChild(2);
         originVisualShape = visualShape.localPosition;
         originPosTextNumber = textNumberCubePickup ? textNumberCubePickup.transform.localPosition : Vector3.zero;
-        originScaleVisualShape = visualShape.localScale;
     }
 
     private void Start()
@@ -295,7 +292,6 @@ public class Shape : MonoBehaviour
               //  Vibration.Vibrate(5);
                 AudioController.Instance.SelectShapeSound();
                 boardController.startCountTime = false;
-                uiTutorial.gameObject.SetActive(false);
                 isDragging = true;
                 dragOffset = transform.position - hit.point;
                 dragPlane = new Plane(Vector3.up, transform.position);
@@ -341,7 +337,6 @@ public class Shape : MonoBehaviour
              //   Vibration.Vibrate(5);
                 AudioController.Instance.SelectShapeSound();
                 boardController.startCountTime = false;
-                uiTutorial.gameObject.SetActive(false);
                 isDragging = true;
                 dragOffset = transform.position - hit.point;
                 dragPlane = new Plane(Vector3.up, transform.position);
@@ -529,28 +524,6 @@ public class Shape : MonoBehaviour
     {
         targetPos.z = limitDirection == LimitDirection.Horizontal ? transform.position.z : targetPos.z;
         targetPos.x = limitDirection == LimitDirection.Vertical ? transform.position.x : targetPos.x;
-    }
-
-    private void CalculatorBoundary()
-    {
-        if (grid == null) return;
-
-        float squareSize = CurrentSquareSize;
-        Vector3 gridCenter = grid.transform.position;
-
-        float halfWidthGrid = grid.numberColumns * squareSize / 2f;
-        float halfHeightGrid = grid.numberRows * squareSize / 2f;
-
-        float halfWidthShape = CurrentShapeData.columns * squareSize / 2f;
-        float halfHeightShape = CurrentShapeData.rows * squareSize / 2f;
-
-        float minX = gridCenter.x - halfWidthGrid + halfWidthShape;
-        float maxX = gridCenter.x + halfWidthGrid - halfWidthShape;
-        float minZ = gridCenter.z - halfHeightGrid + halfHeightShape;
-        float maxZ = gridCenter.z + halfHeightGrid - halfHeightShape;
-
-        targetPos.x = Mathf.Clamp(targetPos.x, minX, maxX);
-        targetPos.z = Mathf.Clamp(targetPos.z, minZ, maxZ);
     }
 
     private void CalculatorOffset(float squareSize)

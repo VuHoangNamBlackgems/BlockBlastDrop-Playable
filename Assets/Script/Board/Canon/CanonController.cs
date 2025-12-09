@@ -398,10 +398,10 @@ public class CanonController : MonoBehaviour
             {
                 if (this == null) return;
 
-                //if (activeBullet == bullet)
-                //{
-                //    activeBullet = null;
-                //}
+                if (activeBullet == bullet)
+                {
+                    activeBullet = null;
+                }
 
                 onShooting = false;
 

@@ -85,7 +85,6 @@ public class EnemyGridManager : MonoBehaviour
     public void LoadEnemyGrid(int level)
     {
         ClearGrid();
-
         if (BoardController.Instance.enemyGridData == null ||
             BoardController.Instance.enemyGridData.levels == null ||
             level >= BoardController.Instance.enemyGridData.levels.Count)
@@ -325,7 +324,7 @@ public class EnemyGridManager : MonoBehaviour
 
         firstEnemy.OnHit();
 
-        KillColumnSequence(columnIndex, complete: false);
+        KillColumnSequence(columnIndex,  false);
 
         StartCompactingNow(columnIndex, firstEnemy);
 
@@ -343,7 +342,7 @@ public class EnemyGridManager : MonoBehaviour
             return;
         }
 
-        var survivors = GetAliveEnemiesSorted(columnIndex, exclude: destroyingEnemy);
+        var survivors = GetAliveEnemiesSorted(columnIndex, destroyingEnemy);
 
 
         if (survivors.Count == 0)

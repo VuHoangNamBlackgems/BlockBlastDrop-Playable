@@ -42,10 +42,7 @@ public class AudioController : MonoBehaviour
         SetMusicVolume(true);
         SetSoundVolume(true);
 
-        if (AutoPlayMusic)
-        {
-            ScaleMusic(0.5f);
-        }
+
     }
 
 
@@ -89,10 +86,6 @@ public class AudioController : MonoBehaviour
         MusicSource.volume = isOn ? 1 : 0;
     }
 
-    public void ScaleMusic(float scale)
-    {
-        // MusicSource.volume = PlayerMusic * scale;
-    }
 
     public void SetSoundVolume(bool isOn)
     {
@@ -111,14 +104,6 @@ public class AudioController : MonoBehaviour
 
     }
 
-    public void ResumeSound()
-    {
-        // EffectsSource.volume = PlayerSound;
-        EffectsSource.UnPause();
-        // EffectsSource.volume = PlayerMusic;
-        MusicSource.UnPause();
-
-    }
 
 
     #region external call function

@@ -27,18 +27,18 @@ public class BoardController : MonoBehaviour
     [Header("Setting"), Space(3)]
     public DifficultyType difficultyLevel;
     public ThemeType theme;
-    
+
     [HideInInspector]
     public int currentLevel => (int)difficultyLevel;
     [HideInInspector]
-    public int currentTheme => (int)theme; 
+    public int currentTheme => (int)theme;
 
     private void Awake()
     {
         Instance = this;
         Time.timeScale = 1.5f;
         QualitySettings.vSyncCount = 0;
-      //  Application.targetFrameRate = 60;
+        //  Application.targetFrameRate = 60;
     }
 
     public void Start()
@@ -60,16 +60,17 @@ public class BoardController : MonoBehaviour
         if (levelSpawn.childCount > 0)
             Destroy(levelSpawn.GetChild(0).gameObject);
     }
-
+    public GameObject[] objLevels;
+    public int indexLevel;
     public void LoadLevel()
     {
-       // Time.timeScale = 1.5f;
+        // Time.timeScale = 1.5f;
         ResetBoard();
         enemyGridManager.LoadEnemyGrid(currentLevel - 1);
         ThemeController.Instance.SetupTheme(currentTheme);
-        Object level = Instantiate(Resources.Load("Levels/Level" + currentLevel), levelSpawn);
-        if (UITutorial.Instance)
-            UITutorial.Instance.gameObject.SetActive(false);
+        // Object level = Instantiate(Resources.Load("Levels/Level" + currentLevel), levelSpawn);
+        Object level = Instantiate(objLevels[indexLevel], levelSpawn);
+
         if (UIEndLevel.Instance)
             UIEndLevel.Instance.Hide();
         timeCountShowTut = 0;
@@ -92,8 +93,7 @@ public class BoardController : MonoBehaviour
     float timeCountShowTut = 0;
     private void Update()
     {
-        if (!useTutorial || TutorialManager.Instance == null) return;
-        if (UITutorial.Instance && UITutorial.Instance.isActiveAndEnabled) return;
+
         if (startCountTime)
             timeCountShowTut += Time.deltaTime;
         else
@@ -104,7 +104,6 @@ public class BoardController : MonoBehaviour
     {
         if (timeCountShowTut > timeMaxShow)
         {
-            TutorialManager.Instance.ShowTutorial();
             timeCountShowTut = 0;
         }
     }

@@ -285,6 +285,7 @@ public class CanonManager : MonoBehaviour
 
     private bool ShouldCompactCanons()
     {
+        return false;
         // Trước tiên validate để sync
         bool hadDesync = CheckForDesync();
 
@@ -903,6 +904,7 @@ public class CanonManager : MonoBehaviour
 
     private void CompactCanonsToLeft()
     {
+        return;
         if (isRearranging) return;
         isRearranging = true;
 
@@ -993,6 +995,8 @@ public class CanonManager : MonoBehaviour
     /// </summary>
     private void VerifyNoLeftGaps()
     {
+        return;
+
         bool foundCanon = false;
         for (int i = lobbyManager.StandStatus.Count - 1; i >= 0; i--)
         {

@@ -24,15 +24,7 @@ public class ThemeController : MonoBehaviour
                 tableMr.material = selectedTheme.tableMaterial;
                 spawnerMr.material = selectedTheme.spawnerMaterial;
 
-                // Quản lý VFX children
-                if (VFX != null && VFX.transform.childCount > 0)
-                {
-                    int vfxTheme = currentTheme % VFX.transform.childCount;
-                    for (int i = 0; i < VFX.transform.childCount; i++)
-                    {
-                        VFX.transform.GetChild(i).gameObject.SetActive(i == vfxTheme);
-                    }
-                }
+          
             }
         }
     }
