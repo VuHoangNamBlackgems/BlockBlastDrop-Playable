@@ -37,7 +37,6 @@ public class BoardController : MonoBehaviour
     {
         Instance = this;
         Time.timeScale = 1.5f;
-        QualitySettings.vSyncCount = 0;
         //  Application.targetFrameRate = 60;
     }
 
@@ -67,7 +66,7 @@ public class BoardController : MonoBehaviour
         // Time.timeScale = 1.5f;
         ResetBoard();
         enemyGridManager.LoadEnemyGrid(currentLevel - 1);
-        ThemeController.Instance.SetupTheme(currentTheme);
+     //   ThemeController.Instance.SetupTheme(currentTheme);
         // Object level = Instantiate(Resources.Load("Levels/Level" + currentLevel), levelSpawn);
         Object level = Instantiate(objLevels[indexLevel], levelSpawn);
 

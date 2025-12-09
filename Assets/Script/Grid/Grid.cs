@@ -100,7 +100,7 @@ public class Grid : MonoBehaviour
     }
     private void SetBorderTheme()
     {
-        Material borderMaterial = null;
+       /* Material borderMaterial = null;
         int curentTheme = BoardController.Instance.currentTheme;
         ThemeData themeData = BoardController.Instance.themeData;
         if (themeData != null && curentTheme >= 0 && curentTheme < themeData.themes.Count)
@@ -128,7 +128,7 @@ public class Grid : MonoBehaviour
                     mr.material = null;
                 }
             }
-        }
+        }*/
     }
     public List<Cube> listCube = new List<Cube>();
     public List<Shape> lsShapes = new List<Shape>();
@@ -193,10 +193,7 @@ public class Grid : MonoBehaviour
                 _gridSquares.Add(go);
                 _gridSquareColors.Add(-1);
 
-                if (BoardController.Instance != null)
-                {
-                    go.GetComponent<GridSquare>().SetupTheme(BoardController.Instance.currentTheme);
-                }
+            
             }
         }
     }
@@ -246,7 +243,6 @@ public class Grid : MonoBehaviour
             go.transform.localScale = new Vector3(squareScale, squareScale, squareScale);
             _gridSquares.Add(go);
             _gridSquareColors.Add(-1);
-            go.GetComponent<GridSquare>().SetupTheme(BoardController.Instance.currentTheme);
         }
     }
     private void CacheSquareRenderers()

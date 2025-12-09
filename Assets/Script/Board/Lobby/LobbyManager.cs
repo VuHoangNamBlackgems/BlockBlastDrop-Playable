@@ -30,7 +30,6 @@ public class LobbyManager : MonoBehaviour
             door.transform.localPosition = new Vector3(xPosition, 0f, 0f);
             DoorList[i] = door;
 
-            door.SetupTheme(BoardController.Instance.currentTheme);
         }
         for (int i = 0; i < StandStatus.Count; i++) StandStatus[i] = -1;
     }
