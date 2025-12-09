@@ -1217,11 +1217,21 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2312300237687719375, guid: 313be64840ec35e429b4518557d2b162,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2483204426130541975, guid: 313be64840ec35e429b4518557d2b162,
         type: 3}
       propertyPath: m_Name
       value: BlockShapeI2V
       objectReference: {fileID: 0}
+    - target: {fileID: 2499310330302481018, guid: 313be64840ec35e429b4518557d2b162,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ca54aaba6402de2409a2a5a31da835a4, type: 2}
     - target: {fileID: 3157630841487401644, guid: 313be64840ec35e429b4518557d2b162,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -1297,6 +1307,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.262
       objectReference: {fileID: 0}
+    - target: {fileID: 8105089152885242060, guid: 313be64840ec35e429b4518557d2b162,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953258867394645137, guid: 313be64840ec35e429b4518557d2b162,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 64a1ad968f685f741bbf757b9a09dbde, type: 2}
     - target: {fileID: 9214129930775286365, guid: 313be64840ec35e429b4518557d2b162,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2114,6 +2134,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5727212159094935085, guid: 96c2ed1458706b4478b30e0b4671adff,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 64a1ad968f685f741bbf757b9a09dbde, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2133,61 +2158,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1017216920262958374}
     m_Modifications:
-    - target: {fileID: 248350151725536960, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 248350151725536960, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 248350151725536960, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 248350151725536960, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 369960816338848793, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 369960816338848793, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 369960816338848793, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 369960816338848793, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 369960816338848793, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 810686842767921427, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: GUIID
-      value: -1205308
-      objectReference: {fileID: 0}
-    - target: {fileID: 810686842767921427, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1440918566498256115, guid: 96c2ed1458706b4478b30e0b4671adff,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2243,91 +2213,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlockShapeI2H
       objectReference: {fileID: 0}
-    - target: {fileID: 3731347532601493415, guid: 96c2ed1458706b4478b30e0b4671adff,
+    - target: {fileID: 5727212159094935085, guid: 96c2ed1458706b4478b30e0b4671adff,
         type: 3}
-      propertyPath: color
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731347532601493415, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: levelScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731347532601493415, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: numberCubePickup
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4021836144073795749, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4021836144073795749, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4021836144073795749, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4021836144073795749, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4634958969568098750, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4634958969568098750, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4634958969568098750, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4634958969568098750, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.299
-      objectReference: {fileID: 0}
-    - target: {fileID: 4634958969568098750, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4634958969568098750, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.203
-      objectReference: {fileID: 0}
-    - target: {fileID: 5540644459499065569, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5540644459499065569, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5540644459499065569, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5540644459499065569, guid: 96c2ed1458706b4478b30e0b4671adff,
-        type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 64a1ad968f685f741bbf757b9a09dbde, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
