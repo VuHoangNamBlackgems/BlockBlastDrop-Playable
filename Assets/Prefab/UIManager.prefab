@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3242292522232651671}
   - component: {fileID: 7950001096724451649}
-  - component: {fileID: 7460922752804954874}
   m_Layer: 5
   m_Name: UITutorial
   m_TagString: Untagged
@@ -50,22 +49,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &7460922752804954874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13549460706453286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97b0c8cb9759e0449a664a0f56a74bc2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CanvasRect: {fileID: 7307673792544086964}
-  Hand: {fileID: 7739911536708811433}
-  distance: 150
-  duration: 1.2
 --- !u!1 &1335546181199903035
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,6 +317,51 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7409963568248378460, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409963568248378460, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409963568248378460, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409963568248378460, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409963568248378460, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7998513629691579731, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7998513629691579731, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7998513629691579731, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7998513629691579731, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8224229984126047501, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
         type: 3}
       propertyPath: m_Pivot.x
@@ -432,6 +460,31 @@ PrefabInstance:
     - target: {fileID: 8224229984126047501, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385505215881200499, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385505215881200499, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385505215881200499, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385505215881200499, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385505215881200499, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9190440558779573561, guid: 2b51825ee6bb52e4685ed4fa33c9aa6f,

@@ -29,13 +29,6 @@ MonoBehaviour:
     upToDate: 0
     keywords: []
   - shaderCompilerPlatform: 5
-    shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 5
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
     passType: 4
     passId: 0
@@ -786,193 +779,55 @@ MonoBehaviour:
     - TCP2_SHADOW_LIGHT_COLOR
     - _ALPHAPREMULTIPLY_ON
   - shaderCompilerPlatform: 5
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _FADING_ON
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _FADING_ON
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _ALPHABLEND_ON
-    - _COLORADDSUBDIFF_ON
-    - _FADING_ON
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _ALPHABLEND_ON
-    - _COLORADDSUBDIFF_ON
-    - _FADING_ON
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _ALPHABLEND_ON
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _ALPHABLEND_ON
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _FADING_ON
-    - _ALPHABLEND_ON
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _FADING_ON
-    - _ALPHABLEND_ON
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _ALPHABLEND_ON
-    - _COLORCOLOR_ON
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _ALPHABLEND_ON
-    - _COLORCOLOR_ON
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _FADING_ON
-    - _ALPHABLEND_ON
-    - _COLORCOLOR_ON
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _FADING_ON
-    - _ALPHABLEND_ON
-    - _COLORCOLOR_ON
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _ALPHATEST_ON
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _ALPHATEST_ON
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _FADING_ON
-    - _ALPHATEST_ON
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _FADING_ON
-    - _ALPHATEST_ON
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _ALPHABLEND_ON
-    - _COLORADDSUBDIFF_ON
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 4
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _ALPHABLEND_ON
-    - _COLORADDSUBDIFF_ON
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
+    shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+    passType: 4
     passId: 0
     subShaderIndex: 0
     upToDate: 0
-    keywords: []
+    keywords:
+    - DIRECTIONAL
   - shaderCompilerPlatform: 9
-    shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
+    shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+    passType: 4
     passId: 0
     subShaderIndex: 0
     upToDate: 0
-    keywords: []
+    keywords:
+    - DIRECTIONAL
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+    passType: 4
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+    passType: 4
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+    passType: 5
+    passId: 1
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - DIRECTIONAL
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+    passType: 5
+    passId: 1
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - DIRECTIONAL
   - shaderCompilerPlatform: 5
     shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
     passType: 4
@@ -1024,218 +879,71 @@ MonoBehaviour:
     keywords:
     - DIRECTIONAL
   - shaderCompilerPlatform: 5
-    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
     passType: 0
-    passId: 0
+    passId: 4
     subShaderIndex: 0
     upToDate: 0
     keywords: []
   - shaderCompilerPlatform: 9
-    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
     passType: 0
-    passId: 0
+    passId: 4
     subShaderIndex: 0
     upToDate: 0
     keywords: []
   - shaderCompilerPlatform: 5
-    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
     passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - UNITY_UI_ALPHACLIP
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - UNITY_UI_ALPHACLIP
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - UNITY_UI_CLIP_RECT
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - UNITY_UI_CLIP_RECT
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - UNITY_UI_ALPHACLIP
-    - UNITY_UI_CLIP_RECT
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - UNITY_UI_ALPHACLIP
-    - UNITY_UI_CLIP_RECT
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 4
     passId: 4
     subShaderIndex: 0
     upToDate: 0
     keywords:
-    - DIRECTIONAL
+    - _FADING_ON
   - shaderCompilerPlatform: 9
-    shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 4
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
     passId: 4
     subShaderIndex: 0
     upToDate: 0
     keywords:
-    - DIRECTIONAL
+    - _FADING_ON
   - shaderCompilerPlatform: 5
-    shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 4
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
     passId: 4
     subShaderIndex: 0
     upToDate: 0
     keywords:
-    - DIRECTIONAL
-    - LIGHTPROBE_SH
+    - _ALPHABLEND_ON
+    - _COLORADDSUBDIFF_ON
+    - _FADING_ON
   - shaderCompilerPlatform: 9
-    shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 4
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
     passId: 4
     subShaderIndex: 0
     upToDate: 0
     keywords:
-    - DIRECTIONAL
-    - LIGHTPROBE_SH
+    - _ALPHABLEND_ON
+    - _COLORADDSUBDIFF_ON
+    - _FADING_ON
   - shaderCompilerPlatform: 5
-    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
     passType: 0
-    passId: 0
+    passId: 4
     subShaderIndex: 0
     upToDate: 0
     keywords:
-    - _SUNDISK_NONE
+    - _ALPHABLEND_ON
   - shaderCompilerPlatform: 9
-    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
     passType: 0
-    passId: 0
+    passId: 4
     subShaderIndex: 0
     upToDate: 0
     keywords:
-    - _SUNDISK_NONE
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _SUNDISK_SIMPLE
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _SUNDISK_SIMPLE
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _SUNDISK_HIGH_QUALITY
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _SUNDISK_HIGH_QUALITY
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _SUNDISK_NONE
-    - _SUNDISK_SIMPLE
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _SUNDISK_NONE
-    - _SUNDISK_SIMPLE
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _SUNDISK_HIGH_QUALITY
-    - _SUNDISK_SIMPLE
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _SUNDISK_HIGH_QUALITY
-    - _SUNDISK_SIMPLE
-  _usedByLunaBuild:
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _SUNDISK_SIMPLE
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _SUNDISK_SIMPLE
+    - _ALPHABLEND_ON
   - shaderCompilerPlatform: 5
     shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
     passType: 0
@@ -1262,6 +970,7 @@ MonoBehaviour:
     upToDate: 0
     keywords:
     - _ALPHABLEND_ON
+    - _COLORCOLOR_ON
   - shaderCompilerPlatform: 9
     shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
     passType: 0
@@ -1270,176 +979,27 @@ MonoBehaviour:
     upToDate: 0
     keywords:
     - _ALPHABLEND_ON
+    - _COLORCOLOR_ON
   - shaderCompilerPlatform: 5
-    shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf,
-      type: 3}
-    passType: 13
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - TCP2_REFLECTIONS_FRESNEL
-    - TCP2_RIM_LIGHTING_LIGHTMASK
-    - TCP2_SHADOW_LIGHT_COLOR
-    - TCP2_SPECULAR
-  - shaderCompilerPlatform: 9
-    shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf,
-      type: 3}
-    passType: 13
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - TCP2_REFLECTIONS_FRESNEL
-    - TCP2_RIM_LIGHTING_LIGHTMASK
-    - TCP2_SHADOW_LIGHT_COLOR
-    - TCP2_SPECULAR
-  - shaderCompilerPlatform: 5
-    shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf,
-      type: 3}
-    passType: 13
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - TCP2_REFLECTIONS_FRESNEL
-    - TCP2_RIM_LIGHTING_LIGHTMASK
-    - TCP2_SHADOW_LIGHT_COLOR
-  - shaderCompilerPlatform: 9
-    shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf,
-      type: 3}
-    passType: 13
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - TCP2_REFLECTIONS_FRESNEL
-    - TCP2_RIM_LIGHTING_LIGHTMASK
-    - TCP2_SHADOW_LIGHT_COLOR
-  - shaderCompilerPlatform: 5
-    shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf,
-      type: 3}
-    passType: 13
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _ALPHAPREMULTIPLY_ON
-    - TCP2_REFLECTIONS_FRESNEL
-    - TCP2_RIM_LIGHTING_LIGHTMASK
-    - TCP2_SHADOW_LIGHT_COLOR
-  - shaderCompilerPlatform: 9
-    shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf,
-      type: 3}
-    passType: 13
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - _ALPHAPREMULTIPLY_ON
-    - TCP2_REFLECTIONS_FRESNEL
-    - TCP2_RIM_LIGHTING_LIGHTMASK
-    - TCP2_SHADOW_LIGHT_COLOR
-  - shaderCompilerPlatform: 5
-    shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf,
-      type: 3}
-    passType: 4
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - DIRECTIONAL
-    - LIGHTPROBE_SH
-    - TCP2_REFLECTIONS_FRESNEL
-    - TCP2_RIM_LIGHTING_LIGHTMASK
-    - TCP2_SHADOW_LIGHT_COLOR
-    - TCP2_SPECULAR
-  - shaderCompilerPlatform: 9
-    shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf,
-      type: 3}
-    passType: 4
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - DIRECTIONAL
-    - LIGHTPROBE_SH
-    - TCP2_REFLECTIONS_FRESNEL
-    - TCP2_RIM_LIGHTING_LIGHTMASK
-    - TCP2_SHADOW_LIGHT_COLOR
-    - TCP2_SPECULAR
-  - shaderCompilerPlatform: 5
-    shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf,
-      type: 3}
-    passType: 4
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - DIRECTIONAL
-    - LIGHTPROBE_SH
-    - TCP2_REFLECTIONS_FRESNEL
-    - TCP2_RIM_LIGHTING_LIGHTMASK
-    - TCP2_SHADOW_LIGHT_COLOR
-  - shaderCompilerPlatform: 9
-    shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf,
-      type: 3}
-    passType: 4
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - DIRECTIONAL
-    - LIGHTPROBE_SH
-    - TCP2_REFLECTIONS_FRESNEL
-    - TCP2_RIM_LIGHTING_LIGHTMASK
-    - TCP2_SHADOW_LIGHT_COLOR
-  - shaderCompilerPlatform: 5
-    shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf,
-      type: 3}
-    passType: 4
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - DIRECTIONAL
-    - LIGHTPROBE_SH
-    - _ALPHAPREMULTIPLY_ON
-    - TCP2_REFLECTIONS_FRESNEL
-    - TCP2_RIM_LIGHTING_LIGHTMASK
-    - TCP2_SHADOW_LIGHT_COLOR
-  - shaderCompilerPlatform: 9
-    shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf,
-      type: 3}
-    passType: 4
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - DIRECTIONAL
-    - LIGHTPROBE_SH
-    - _ALPHAPREMULTIPLY_ON
-    - TCP2_REFLECTIONS_FRESNEL
-    - TCP2_RIM_LIGHTING_LIGHTMASK
-    - TCP2_SHADOW_LIGHT_COLOR
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 4
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
     passId: 4
     subShaderIndex: 0
     upToDate: 0
     keywords:
-    - DIRECTIONAL
-    - LIGHTPROBE_SH
+    - _FADING_ON
+    - _ALPHABLEND_ON
+    - _COLORCOLOR_ON
   - shaderCompilerPlatform: 9
-    shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 4
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
     passId: 4
     subShaderIndex: 0
     upToDate: 0
     keywords:
-    - DIRECTIONAL
-    - LIGHTPROBE_SH
+    - _FADING_ON
+    - _ALPHABLEND_ON
+    - _COLORCOLOR_ON
   - shaderCompilerPlatform: 5
     shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
     passType: 0
@@ -1463,8 +1023,8 @@ MonoBehaviour:
     subShaderIndex: 0
     upToDate: 0
     keywords:
-    - _COLORADDSUBDIFF_ON
-    - _ALPHABLEND_ON
+    - _FADING_ON
+    - _ALPHATEST_ON
   - shaderCompilerPlatform: 9
     shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
     passType: 0
@@ -1472,12 +1032,471 @@ MonoBehaviour:
     subShaderIndex: 0
     upToDate: 0
     keywords:
-    - _COLORADDSUBDIFF_ON
+    - _FADING_ON
+    - _ALPHATEST_ON
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
     - _ALPHABLEND_ON
+    - _COLORADDSUBDIFF_ON
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _COLORADDSUBDIFF_ON
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: f24809d953f26f64b9c352c89807da80, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: f24809d953f26f64b9c352c89807da80, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - UNITY_UI_CLIP_RECT
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - UNITY_UI_CLIP_RECT
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 5a21140ba69b307499536057a340bcea, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 5a21140ba69b307499536057a340bcea, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: b2acb20c2de8b2e478839059fa583b89, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: b2acb20c2de8b2e478839059fa583b89, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 20fb5fa09d4675a4e94314a228763c23, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 20fb5fa09d4675a4e94314a228763c23, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords: []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 4
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - DIRECTIONAL
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 4
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - DIRECTIONAL
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 4
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 210, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 4
+    passId: 4
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _SUNDISK_NONE
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _SUNDISK_NONE
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _SUNDISK_SIMPLE
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _SUNDISK_SIMPLE
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _SUNDISK_HIGH_QUALITY
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _SUNDISK_HIGH_QUALITY
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _SUNDISK_NONE
+    - _SUNDISK_SIMPLE
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _SUNDISK_NONE
+    - _SUNDISK_SIMPLE
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _SUNDISK_HIGH_QUALITY
+    - _SUNDISK_SIMPLE
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _SUNDISK_HIGH_QUALITY
+    - _SUNDISK_SIMPLE
+  _usedByLunaBuild: []
   _includedShaderVariants: []
   _excludedShaderVariants: []
-  version: 346
+  version: 516
   _shaderParsedShaders:
+  - ParsedSubShaders:
+    - Index: 0
+      Passes:
+      - Shader: {fileID: 4800000, guid: b2acb20c2de8b2e478839059fa583b89, type: 3}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 5
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 100\n\nuniform \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform
+            \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform \tvec4 _MainTex_ST;\nattribute
+            highp vec4 in_POSITION0;\nattribute highp vec2 in_TEXCOORD0;\nvarying
+            highp vec2 vs_TEXCOORD0;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    gl_Position = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    vs_TEXCOORD0.xy = in_TEXCOORD0.xy * _MainTex_ST.xy
+            + _MainTex_ST.zw;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 100\n\n#ifdef GL_FRAGMENT_PRECISION_HIGH\n   
+            precision highp float;\n#else\n    precision mediump float;\n#endif\nprecision
+            highp int;\nuniform \tfloat _Columns;\nuniform \tfloat _Rows;\nuniform
+            \tfloat _Index;\nuniform \tfloat _Cutoff;\nuniform lowp sampler2D _MainTex;\nvarying
+            highp vec2 vs_TEXCOORD0;\n#define SV_Target0 gl_FragData[0]\nvec3 u_xlat0;\nlowp
+            vec4 u_xlat10_0;\nbool u_xlatb0;\nvec2 u_xlat1;\nfloat u_xlat4;\nfloat
+            u_xlat6;\nvoid main()\n{\n    u_xlat0.xyz = max(vec3(_Columns, _Rows,
+            _Index), vec3(1.0, 1.0, 0.0));\n    u_xlat6 = u_xlat0.x * u_xlat0.y +
+            -1.0;\n    u_xlat4 = min(u_xlat6, u_xlat0.z);\n    u_xlat6 = u_xlat4
+            / u_xlat0.x;\n    u_xlat6 = floor(u_xlat6);\n    u_xlat4 = (-u_xlat6)
+            * u_xlat0.x + u_xlat4;\n    u_xlat1.xy = vec2(1.0, 1.0) / u_xlat0.xy;\n   
+            u_xlat0.x = u_xlat0.y + -1.0;\n    u_xlat0.x = (-u_xlat6) + u_xlat0.x;\n   
+            u_xlat0.y = u_xlat1.y * u_xlat0.x;\n    u_xlat0.x = u_xlat4 * u_xlat1.x;\n   
+            u_xlat0.xy = vs_TEXCOORD0.xy * u_xlat1.xy + u_xlat0.xy;\n    u_xlat10_0
+            = texture2D(_MainTex, u_xlat0.xy);\n    u_xlat1.x = u_xlat10_0.w + (-_Cutoff);\n   
+            SV_Target0 = u_xlat10_0;\n    u_xlatb0 = u_xlat1.x<0.0;\n    if(u_xlatb0){discard;}\n   
+            return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords: []
+          Tags:
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tvec4 _MainTex_ST;\nin highp vec4 in_POSITION0;\nin highp vec2 in_TEXCOORD0;\nout
+            highp vec2 vs_TEXCOORD0;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    gl_Position = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    vs_TEXCOORD0.xy = in_TEXCOORD0.xy * _MainTex_ST.xy
+            + _MainTex_ST.zw;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tfloat _Columns;\nuniform \tfloat _Rows;\nuniform
+            \tfloat _Index;\nuniform \tfloat _Cutoff;\nUNITY_LOCATION(0) uniform
+            mediump sampler2D _MainTex;\nin highp vec2 vs_TEXCOORD0;\nlayout(location
+            = 0) out mediump vec4 SV_Target0;\nvec3 u_xlat0;\nmediump vec4 u_xlat16_0;\nbool
+            u_xlatb0;\nvec2 u_xlat1;\nfloat u_xlat4;\nfloat u_xlat6;\nvoid main()\n{\n   
+            u_xlat0.xyz = max(vec3(_Columns, _Rows, _Index), vec3(1.0, 1.0, 0.0));\n   
+            u_xlat6 = u_xlat0.x * u_xlat0.y + -1.0;\n    u_xlat4 = min(u_xlat6, u_xlat0.z);\n   
+            u_xlat6 = u_xlat4 / u_xlat0.x;\n    u_xlat6 = floor(u_xlat6);\n    u_xlat4
+            = (-u_xlat6) * u_xlat0.x + u_xlat4;\n    u_xlat1.xy = vec2(1.0, 1.0)
+            / u_xlat0.xy;\n    u_xlat0.x = u_xlat0.y + -1.0;\n    u_xlat0.x = (-u_xlat6)
+            + u_xlat0.x;\n    u_xlat0.y = u_xlat1.y * u_xlat0.x;\n    u_xlat0.x =
+            u_xlat4 * u_xlat1.x;\n    u_xlat0.xy = vs_TEXCOORD0.xy * u_xlat1.xy +
+            u_xlat0.xy;\n    u_xlat16_0 = texture(_MainTex, u_xlat0.xy);\n    u_xlat1.x
+            = u_xlat16_0.w + (-_Cutoff);\n    SV_Target0 = u_xlat16_0;\n    u_xlatb0
+            = u_xlat1.x<0.0;\n    if(u_xlatb0){discard;}\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords: []
+          Tags:
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        DefinedKeywords:
+        - STEREO_CUBEMAP_RENDER_ON
+        - STEREO_INSTANCING_ON
+        - STEREO_MULTIVIEW_ON
+        - UNITY_SINGLE_PASS_STEREO
+        KeywordGroups: []
+        KeywordsMinimalCardinality: 0
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 5
+          shader: {fileID: 4800000, guid: b2acb20c2de8b2e478839059fa583b89, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords: []
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: b2acb20c2de8b2e478839059fa583b89, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords: []
+        CompilationErrors: []
+        HasDepthReader: 0
+        Id: 0
+        SubShaderIndex: 0
+        SerializedObjectId: 0
+        Tags:
+        - Key: IGNOREPROJECTOR
+          Value: true
+        - Key: QUEUE
+          Value: Transparent
+        - Key: RenderType
+          Value: Transparent
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: -1
+      Shader: {fileID: 4800000, guid: b2acb20c2de8b2e478839059fa583b89, type: 3}
+      Tags:
+      - Key: IGNOREPROJECTOR
+        Value: true
+      - Key: QUEUE
+        Value: Transparent
+      - Key: RenderType
+        Value: Transparent
+    Shader: {fileID: 4800000, guid: b2acb20c2de8b2e478839059fa583b89, type: 3}
+    ShaderPath: Assets/_Assistance/Face/Tony/FaceFlipbook_BuiltIn.shader
+    ShaderDefinedKeywords:
+    - STEREO_CUBEMAP_RENDER_ON
+    - STEREO_INSTANCING_ON
+    - STEREO_MULTIVIEW_ON
+    - UNITY_SINGLE_PASS_STEREO
+    fallbackShader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+    CompilationErrors: []
+    Variants:
+    - shaderCompilerPlatform: 5
+      shader: {fileID: 4800000, guid: b2acb20c2de8b2e478839059fa583b89, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords: []
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: b2acb20c2de8b2e478839059fa583b89, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords: []
   - ParsedSubShaders:
     - Index: 0
       Passes:
@@ -1611,38 +1630,12 @@ MonoBehaviour:
     - Index: 0
       Passes:
       - Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
-        ShaderVariants:
-        - ShaderCompilerPlatform: 5
-          NoShaderVariant: 0
-          VertexProgram: "\r\n                    #version 100\r\n                   
-            // This is a VP stub\r\n                    attribute vec3 _glesVertex;\r\n                   
-            uniform mat4 matrix_model;\r\n                    uniform mat4 matrix_viewProjection;\r\n                   
-            void main() { \r\n                        gl_Position = matrix_viewProjection
-            * matrix_model * vec4(_glesVertex, 1.0); \r\n                    }"
-          FragmentProgram: "\r\n                    #version 100\r\n                   
-            // This is a VP stub\r\n                    precision mediump float;\r\n                   
-            void main(void) { \r\n                        gl_FragColor = vec4(1,
-            0, 1, 1); \r\n                    }"
-          LOD: 0
-          readDepth: 0
-          PassId: 0
-          SubShaderIndex: 0
-          Keywords: []
-          Tags:
-          - Key: LIGHTMODE
-            Value: ALWAYS
+        ShaderVariants: []
         DefinedKeywords: []
         KeywordGroups: []
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
-        VariantStructures:
-        - shaderCompilerPlatform: 5
-          shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
-          passType: 0
-          passId: 0
-          subShaderIndex: 0
-          upToDate: 0
-          keywords: []
+        VariantStructures: []
         CompilationErrors: []
         HasDepthReader: 0
         Id: 0
@@ -1661,14 +1654,7 @@ MonoBehaviour:
     ShaderDefinedKeywords: []
     fallbackShader: {fileID: 0}
     CompilationErrors: []
-    Variants:
-    - shaderCompilerPlatform: 5
-      shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
-      passType: 0
-      passId: 0
-      subShaderIndex: 0
-      upToDate: 0
-      keywords: []
+    Variants: []
   - ParsedSubShaders:
     - Index: 0
       Passes:
@@ -1954,166 +1940,137 @@ MonoBehaviour:
         - Keywords:
           - __
           - INSTANCING_ON
-          hasDiscard: 1
         - Keywords:
           - __
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         - Keywords:
           - DIRECTIONAL
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -2121,7 +2078,6 @@ MonoBehaviour:
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -2129,123 +2085,103 @@ MonoBehaviour:
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -2253,7 +2189,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -2261,40 +2196,34 @@ MonoBehaviour:
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -2302,7 +2231,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -2310,14 +2238,12 @@ MonoBehaviour:
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -2325,7 +2251,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -2333,7 +2258,6 @@ MonoBehaviour:
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -2341,7 +2265,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -2350,7 +2273,6 @@ MonoBehaviour:
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -2359,71 +2281,59 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
@@ -2431,27 +2341,23 @@ MonoBehaviour:
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
@@ -2459,14 +2365,12 @@ MonoBehaviour:
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
@@ -2474,7 +2378,6 @@ MonoBehaviour:
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
@@ -2482,7 +2385,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
@@ -2491,7 +2393,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         KeywordsMinimalCardinality: 83
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -2672,22 +2573,16 @@ MonoBehaviour:
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         - Keywords:
           - POINT
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
-          hasDiscard: 0
         - Keywords:
           - SPOT
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
-          hasDiscard: 0
         KeywordsMinimalCardinality: 5
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -3059,12 +2954,10 @@ MonoBehaviour:
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         - Keywords:
           - _
           - POINT
           - SPOT
-          hasDiscard: 1
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -3205,7 +3098,6 @@ MonoBehaviour:
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -3253,13 +3145,10 @@ MonoBehaviour:
         - Keywords:
           - __
           - INSTANCING_ON
-          hasDiscard: 1
         - Keywords:
           - SHADOWS_DEPTH
-          hasDiscard: 0
         - Keywords:
           - SHADOWS_CUBE
-          hasDiscard: 0
         KeywordsMinimalCardinality: 2
         ContainsInvalidVariant: 0
         VariantStructures: []
@@ -3433,7 +3322,6 @@ MonoBehaviour:
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -3555,24 +3443,19 @@ MonoBehaviour:
           - __
           - INSTANCING_ON
           - PROCEDURAL_INSTANCING_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _ALPHATEST_ON
           - _ALPHABLEND_ON
           - _ALPHAPREMULTIPLY_ON
           - _ALPHAMODULATE_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _REQUIRE_UV2
-          hasDiscard: 1
         - Keywords:
           - SHADOWS_DEPTH
-          hasDiscard: 0
         - Keywords:
           - SHADOWS_CUBE
-          hasDiscard: 0
         KeywordsMinimalCardinality: 2
         ContainsInvalidVariant: 0
         VariantStructures: []
@@ -4420,93 +4303,74 @@ MonoBehaviour:
         - Keywords:
           - __
           - SOFTPARTICLES_ON
-          hasDiscard: 1
         - Keywords:
           - __
           - SHADOWS_SHADOWMASK
-          hasDiscard: 1
         - Keywords:
           - __
           - INSTANCING_ON
           - PROCEDURAL_INSTANCING_ON
-          hasDiscard: 1
         - Keywords:
           - __
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         - Keywords:
           - _
           - _NORMALMAP
-          hasDiscard: 1
         - Keywords:
           - _
           - _FADING_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _REQUIRE_UV2
-          hasDiscard: 1
         - Keywords:
           - _
           - EFFECT_BUMP
-          hasDiscard: 1
         - Keywords:
           - DIRECTIONAL
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         KeywordsMinimalCardinality: 11
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -4693,24 +4557,19 @@ MonoBehaviour:
           - __
           - INSTANCING_ON
           - PROCEDURAL_INSTANCING_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _ALPHATEST_ON
           - _ALPHABLEND_ON
           - _ALPHAPREMULTIPLY_ON
           - _ALPHAMODULATE_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _REQUIRE_UV2
-          hasDiscard: 1
         - Keywords:
           - SHADOWS_DEPTH
-          hasDiscard: 0
         - Keywords:
           - SHADOWS_CUBE
-          hasDiscard: 0
         KeywordsMinimalCardinality: 2
         ContainsInvalidVariant: 0
         VariantStructures: []
@@ -5927,34 +5786,27 @@ MonoBehaviour:
         - Keywords:
           - __
           - SOFTPARTICLES_ON
-          hasDiscard: 1
         - Keywords:
           - __
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         - Keywords:
           - __
           - INSTANCING_ON
           - PROCEDURAL_INSTANCING_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _NORMALMAP
-          hasDiscard: 1
         - Keywords:
           - _
           - _FADING_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _REQUIRE_UV2
-          hasDiscard: 1
         - Keywords:
           - _
           - EFFECT_BUMP
-          hasDiscard: 1
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -6367,6 +6219,263 @@ MonoBehaviour:
       keywords:
       - _ALPHABLEND_ON
       - _COLORADDSUBDIFF_ON
+  - ParsedSubShaders:
+    - Index: 0
+      Passes:
+      - Shader: {fileID: 4800000, guid: f24809d953f26f64b9c352c89807da80, type: 3}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 5
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 100\n\nuniform \tvec4 _ProjectionParams;\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_WorldToObject[4];\nuniform
+            \tvec4 hlslcc_mtx4x4unity_MatrixInvV[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tvec4 _SurfaceNoise_ST;\nuniform \tvec4 _SurfaceDistortion_ST;\nattribute
+            highp vec4 in_POSITION0;\nattribute highp vec4 in_TEXCOORD0;\nattribute
+            highp vec3 in_NORMAL0;\nvarying highp vec2 vs_TEXCOORD0;\nvarying highp
+            vec2 vs_TEXCOORD1;\nvarying highp vec4 vs_TEXCOORD2;\nvarying highp vec3
+            vs_NORMAL0;\nvec4 u_xlat0;\nvec4 u_xlat1;\nfloat u_xlat6;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    u_xlat0 = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    gl_Position = u_xlat0;\n    vs_TEXCOORD1.xy
+            = in_TEXCOORD0.xy * _SurfaceDistortion_ST.xy + _SurfaceDistortion_ST.zw;\n   
+            vs_TEXCOORD0.xy = in_TEXCOORD0.xy * _SurfaceNoise_ST.xy + _SurfaceNoise_ST.zw;\n   
+            u_xlat0.y = u_xlat0.y * _ProjectionParams.x;\n    u_xlat1.xzw = u_xlat0.xwy
+            * vec3(0.5, 0.5, 0.5);\n    vs_TEXCOORD2.zw = u_xlat0.zw;\n    vs_TEXCOORD2.xy
+            = u_xlat1.zz + u_xlat1.xw;\n    u_xlat0.xyz = hlslcc_mtx4x4unity_WorldToObject[1].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[0].yyy;\n    u_xlat0.xyz = hlslcc_mtx4x4unity_WorldToObject[0].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[0].xxx + u_xlat0.xyz;\n    u_xlat0.xyz
+            = hlslcc_mtx4x4unity_WorldToObject[2].xyz * hlslcc_mtx4x4unity_MatrixInvV[0].zzz
+            + u_xlat0.xyz;\n    u_xlat0.xyz = hlslcc_mtx4x4unity_WorldToObject[3].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[0].www + u_xlat0.xyz;\n    u_xlat0.x
+            = dot(u_xlat0.xyz, in_NORMAL0.xyz);\n    u_xlat1.xyz = hlslcc_mtx4x4unity_WorldToObject[1].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[1].yyy;\n    u_xlat1.xyz = hlslcc_mtx4x4unity_WorldToObject[0].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[1].xxx + u_xlat1.xyz;\n    u_xlat1.xyz
+            = hlslcc_mtx4x4unity_WorldToObject[2].xyz * hlslcc_mtx4x4unity_MatrixInvV[1].zzz
+            + u_xlat1.xyz;\n    u_xlat1.xyz = hlslcc_mtx4x4unity_WorldToObject[3].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[1].www + u_xlat1.xyz;\n    u_xlat0.y
+            = dot(u_xlat1.xyz, in_NORMAL0.xyz);\n    u_xlat1.xyz = hlslcc_mtx4x4unity_WorldToObject[1].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[2].yyy;\n    u_xlat1.xyz = hlslcc_mtx4x4unity_WorldToObject[0].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[2].xxx + u_xlat1.xyz;\n    u_xlat1.xyz
+            = hlslcc_mtx4x4unity_WorldToObject[2].xyz * hlslcc_mtx4x4unity_MatrixInvV[2].zzz
+            + u_xlat1.xyz;\n    u_xlat1.xyz = hlslcc_mtx4x4unity_WorldToObject[3].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[2].www + u_xlat1.xyz;\n    u_xlat0.z
+            = dot(u_xlat1.xyz, in_NORMAL0.xyz);\n    u_xlat6 = dot(u_xlat0.xyz, u_xlat0.xyz);\n   
+            u_xlat6 = inversesqrt(u_xlat6);\n    vs_NORMAL0.xyz = vec3(u_xlat6) *
+            u_xlat0.xyz;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 100\n\n#ifdef GL_FRAGMENT_PRECISION_HIGH\n   
+            precision highp float;\n#else\n    precision mediump float;\n#endif\nprecision
+            highp int;\nuniform \tvec4 _Time;\nuniform \tvec4 _ZBufferParams;\nuniform
+            \tvec4 _DepthGradientShallow;\nuniform \tvec4 _DepthGradientDeep;\nuniform
+            \tvec4 _FoamColor;\nuniform \tfloat _DepthMaxDistance;\nuniform \tfloat
+            _FoamMaxDistance;\nuniform \tfloat _FoamMinDistance;\nuniform \tfloat
+            _SurfaceNoiseCutoff;\nuniform \tfloat _SurfaceDistortionAmount;\nuniform
+            \tvec2 _SurfaceNoiseScroll;\nuniform highp sampler2D _CameraDepthTexture;\nuniform
+            lowp sampler2D _CameraNormalsTexture;\nuniform lowp sampler2D _SurfaceDistortion;\nuniform
+            lowp sampler2D _SurfaceNoise;\nvarying highp vec2 vs_TEXCOORD0;\nvarying
+            highp vec2 vs_TEXCOORD1;\nvarying highp vec4 vs_TEXCOORD2;\nvarying highp
+            vec3 vs_NORMAL0;\n#define SV_Target0 gl_FragData[0]\nvec2 u_xlat0;\nlowp
+            vec2 u_xlat10_0;\nvec4 u_xlat1;\nlowp vec3 u_xlat10_1;\nvec2 u_xlat2;\nvec2
+            u_xlat4;\nfloat u_xlat6;\nvoid main()\n{\n    u_xlat10_0.xy = texture2D(_SurfaceDistortion,
+            vs_TEXCOORD1.xy).xy;\n    u_xlat0.xy = u_xlat10_0.xy * vec2(2.0, 2.0)
+            + vec2(-1.0, -1.0);\n    u_xlat4.xy = _Time.yy * vec2(_SurfaceNoiseScroll.x,
+            _SurfaceNoiseScroll.y) + vs_TEXCOORD0.xy;\n    u_xlat0.xy = u_xlat0.xy
+            * vec2(_SurfaceDistortionAmount) + u_xlat4.xy;\n    u_xlat10_0.x = texture2D(_SurfaceNoise,
+            u_xlat0.xy).x;\n    u_xlat2.xy = vs_TEXCOORD2.xy / vs_TEXCOORD2.ww;\n   
+            u_xlat10_1.xyz = texture2D(_CameraNormalsTexture, u_xlat2.xy).xyz;\n   
+            u_xlat2.x = texture2D(_CameraDepthTexture, u_xlat2.xy).x;\n    u_xlat2.x
+            = _ZBufferParams.z * u_xlat2.x + _ZBufferParams.w;\n    u_xlat2.x = float(1.0)
+            / u_xlat2.x;\n    u_xlat2.x = u_xlat2.x + (-vs_TEXCOORD2.w);\n    u_xlat4.x
+            = dot(u_xlat10_1.xyz, vs_NORMAL0.xyz);\n    u_xlat4.x = clamp(u_xlat4.x,
+            0.0, 1.0);\n    u_xlat6 = (-_FoamMaxDistance) + _FoamMinDistance;\n   
+            u_xlat4.x = u_xlat4.x * u_xlat6 + _FoamMaxDistance;\n    u_xlat4.x =
+            u_xlat2.x / u_xlat4.x;\n    u_xlat4.x = clamp(u_xlat4.x, 0.0, 1.0);\n   
+            u_xlat2.x = u_xlat2.x / _DepthMaxDistance;\n    u_xlat2.x = clamp(u_xlat2.x,
+            0.0, 1.0);\n    u_xlat4.x = u_xlat4.x * _SurfaceNoiseCutoff + -0.00999999978;\n   
+            u_xlat0.x = (-u_xlat4.x) + u_xlat10_0.x;\n    u_xlat0.x = u_xlat0.x *
+            50.0;\n    u_xlat0.x = clamp(u_xlat0.x, 0.0, 1.0);\n    u_xlat4.x = u_xlat0.x
+            * -2.0 + 3.0;\n    u_xlat0.x = u_xlat0.x * u_xlat0.x;\n    u_xlat0.x
+            = u_xlat0.x * u_xlat4.x;\n    u_xlat4.x = (-_FoamColor.w) * u_xlat0.x
+            + 1.0;\n    u_xlat1 = (-_DepthGradientShallow) + _DepthGradientDeep;\n   
+            u_xlat1 = u_xlat2.xxxx * u_xlat1 + _DepthGradientShallow;\n    u_xlat1
+            = u_xlat4.xxxx * u_xlat1;\n    u_xlat2.x = u_xlat0.x * _FoamColor.w;\n   
+            SV_Target0.w = _FoamColor.w * u_xlat0.x + u_xlat1.w;\n    SV_Target0.xyz
+            = _FoamColor.xyz * u_xlat2.xxx + u_xlat1.xyz;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 1
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords: []
+          Tags:
+          - Key: QUEUE
+            Value: Transparent
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 _ProjectionParams;\nuniform \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform
+            \tvec4 hlslcc_mtx4x4unity_WorldToObject[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixInvV[4];\nuniform
+            \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform \tvec4 _SurfaceNoise_ST;\nuniform
+            \tvec4 _SurfaceDistortion_ST;\nin highp vec4 in_POSITION0;\nin highp
+            vec4 in_TEXCOORD0;\nin highp vec3 in_NORMAL0;\nout highp vec2 vs_TEXCOORD0;\nout
+            highp vec2 vs_TEXCOORD1;\nout highp vec4 vs_TEXCOORD2;\nout highp vec3
+            vs_NORMAL0;\nvec4 u_xlat0;\nvec4 u_xlat1;\nfloat u_xlat6;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    u_xlat0 = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    gl_Position = u_xlat0;\n    vs_TEXCOORD1.xy
+            = in_TEXCOORD0.xy * _SurfaceDistortion_ST.xy + _SurfaceDistortion_ST.zw;\n   
+            vs_TEXCOORD0.xy = in_TEXCOORD0.xy * _SurfaceNoise_ST.xy + _SurfaceNoise_ST.zw;\n   
+            u_xlat0.y = u_xlat0.y * _ProjectionParams.x;\n    u_xlat1.xzw = u_xlat0.xwy
+            * vec3(0.5, 0.5, 0.5);\n    vs_TEXCOORD2.zw = u_xlat0.zw;\n    vs_TEXCOORD2.xy
+            = u_xlat1.zz + u_xlat1.xw;\n    u_xlat0.xyz = hlslcc_mtx4x4unity_WorldToObject[1].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[0].yyy;\n    u_xlat0.xyz = hlslcc_mtx4x4unity_WorldToObject[0].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[0].xxx + u_xlat0.xyz;\n    u_xlat0.xyz
+            = hlslcc_mtx4x4unity_WorldToObject[2].xyz * hlslcc_mtx4x4unity_MatrixInvV[0].zzz
+            + u_xlat0.xyz;\n    u_xlat0.xyz = hlslcc_mtx4x4unity_WorldToObject[3].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[0].www + u_xlat0.xyz;\n    u_xlat0.x
+            = dot(u_xlat0.xyz, in_NORMAL0.xyz);\n    u_xlat1.xyz = hlslcc_mtx4x4unity_WorldToObject[1].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[1].yyy;\n    u_xlat1.xyz = hlslcc_mtx4x4unity_WorldToObject[0].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[1].xxx + u_xlat1.xyz;\n    u_xlat1.xyz
+            = hlslcc_mtx4x4unity_WorldToObject[2].xyz * hlslcc_mtx4x4unity_MatrixInvV[1].zzz
+            + u_xlat1.xyz;\n    u_xlat1.xyz = hlslcc_mtx4x4unity_WorldToObject[3].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[1].www + u_xlat1.xyz;\n    u_xlat0.y
+            = dot(u_xlat1.xyz, in_NORMAL0.xyz);\n    u_xlat1.xyz = hlslcc_mtx4x4unity_WorldToObject[1].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[2].yyy;\n    u_xlat1.xyz = hlslcc_mtx4x4unity_WorldToObject[0].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[2].xxx + u_xlat1.xyz;\n    u_xlat1.xyz
+            = hlslcc_mtx4x4unity_WorldToObject[2].xyz * hlslcc_mtx4x4unity_MatrixInvV[2].zzz
+            + u_xlat1.xyz;\n    u_xlat1.xyz = hlslcc_mtx4x4unity_WorldToObject[3].xyz
+            * hlslcc_mtx4x4unity_MatrixInvV[2].www + u_xlat1.xyz;\n    u_xlat0.z
+            = dot(u_xlat1.xyz, in_NORMAL0.xyz);\n    u_xlat6 = dot(u_xlat0.xyz, u_xlat0.xyz);\n   
+            u_xlat6 = inversesqrt(u_xlat6);\n    vs_NORMAL0.xyz = vec3(u_xlat6) *
+            u_xlat0.xyz;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tvec4 _Time;\nuniform \tvec4 _ZBufferParams;\nuniform
+            \tvec4 _DepthGradientShallow;\nuniform \tvec4 _DepthGradientDeep;\nuniform
+            \tvec4 _FoamColor;\nuniform \tfloat _DepthMaxDistance;\nuniform \tfloat
+            _FoamMaxDistance;\nuniform \tfloat _FoamMinDistance;\nuniform \tfloat
+            _SurfaceNoiseCutoff;\nuniform \tfloat _SurfaceDistortionAmount;\nuniform
+            \tvec2 _SurfaceNoiseScroll;\nUNITY_LOCATION(0) uniform highp sampler2D
+            _CameraDepthTexture;\nUNITY_LOCATION(1) uniform mediump sampler2D _CameraNormalsTexture;\nUNITY_LOCATION(2)
+            uniform mediump sampler2D _SurfaceDistortion;\nUNITY_LOCATION(3) uniform
+            mediump sampler2D _SurfaceNoise;\nin highp vec2 vs_TEXCOORD0;\nin highp
+            vec2 vs_TEXCOORD1;\nin highp vec4 vs_TEXCOORD2;\nin highp vec3 vs_NORMAL0;\nlayout(location
+            = 0) out highp vec4 SV_Target0;\nvec2 u_xlat0;\nmediump vec2 u_xlat16_0;\nvec4
+            u_xlat1;\nmediump vec3 u_xlat16_1;\nvec2 u_xlat2;\nvec2 u_xlat4;\nfloat
+            u_xlat6;\nvoid main()\n{\n    u_xlat16_0.xy = texture(_SurfaceDistortion,
+            vs_TEXCOORD1.xy).xy;\n    u_xlat0.xy = u_xlat16_0.xy * vec2(2.0, 2.0)
+            + vec2(-1.0, -1.0);\n    u_xlat4.xy = _Time.yy * vec2(_SurfaceNoiseScroll.x,
+            _SurfaceNoiseScroll.y) + vs_TEXCOORD0.xy;\n    u_xlat0.xy = u_xlat0.xy
+            * vec2(_SurfaceDistortionAmount) + u_xlat4.xy;\n    u_xlat16_0.x = texture(_SurfaceNoise,
+            u_xlat0.xy).x;\n    u_xlat2.xy = vs_TEXCOORD2.xy / vs_TEXCOORD2.ww;\n   
+            u_xlat16_1.xyz = texture(_CameraNormalsTexture, u_xlat2.xy).xyz;\n   
+            u_xlat2.x = texture(_CameraDepthTexture, u_xlat2.xy).x;\n    u_xlat2.x
+            = _ZBufferParams.z * u_xlat2.x + _ZBufferParams.w;\n    u_xlat2.x = float(1.0)
+            / u_xlat2.x;\n    u_xlat2.x = u_xlat2.x + (-vs_TEXCOORD2.w);\n    u_xlat4.x
+            = dot(u_xlat16_1.xyz, vs_NORMAL0.xyz);\n    u_xlat4.x = clamp(u_xlat4.x,
+            0.0, 1.0);\n    u_xlat6 = (-_FoamMaxDistance) + _FoamMinDistance;\n   
+            u_xlat4.x = u_xlat4.x * u_xlat6 + _FoamMaxDistance;\n    u_xlat4.x =
+            u_xlat2.x / u_xlat4.x;\n    u_xlat4.x = clamp(u_xlat4.x, 0.0, 1.0);\n   
+            u_xlat2.x = u_xlat2.x / _DepthMaxDistance;\n    u_xlat2.x = clamp(u_xlat2.x,
+            0.0, 1.0);\n    u_xlat4.x = u_xlat4.x * _SurfaceNoiseCutoff + -0.00999999978;\n   
+            u_xlat0.x = (-u_xlat4.x) + u_xlat16_0.x;\n    u_xlat0.x = u_xlat0.x *
+            50.0;\n    u_xlat0.x = clamp(u_xlat0.x, 0.0, 1.0);\n    u_xlat4.x = u_xlat0.x
+            * -2.0 + 3.0;\n    u_xlat0.x = u_xlat0.x * u_xlat0.x;\n    u_xlat0.x
+            = u_xlat0.x * u_xlat4.x;\n    u_xlat4.x = (-_FoamColor.w) * u_xlat0.x
+            + 1.0;\n    u_xlat1 = (-_DepthGradientShallow) + _DepthGradientDeep;\n   
+            u_xlat1 = u_xlat2.xxxx * u_xlat1 + _DepthGradientShallow;\n    u_xlat1
+            = u_xlat4.xxxx * u_xlat1;\n    u_xlat2.x = u_xlat0.x * _FoamColor.w;\n   
+            SV_Target0.w = _FoamColor.w * u_xlat0.x + u_xlat1.w;\n    SV_Target0.xyz
+            = _FoamColor.xyz * u_xlat2.xxx + u_xlat1.xyz;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 1
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords: []
+          Tags:
+          - Key: QUEUE
+            Value: Transparent
+        DefinedKeywords:
+        - STEREO_CUBEMAP_RENDER_ON
+        - STEREO_INSTANCING_ON
+        - STEREO_MULTIVIEW_ON
+        - UNITY_SINGLE_PASS_STEREO
+        KeywordGroups: []
+        KeywordsMinimalCardinality: 0
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 5
+          shader: {fileID: 4800000, guid: f24809d953f26f64b9c352c89807da80, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords: []
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: f24809d953f26f64b9c352c89807da80, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords: []
+        CompilationErrors: []
+        HasDepthReader: 1
+        Id: 0
+        SubShaderIndex: 0
+        SerializedObjectId: 0
+        Tags:
+        - Key: QUEUE
+          Value: Transparent
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: -1
+      Shader: {fileID: 4800000, guid: f24809d953f26f64b9c352c89807da80, type: 3}
+      Tags:
+      - Key: QUEUE
+        Value: Transparent
+    Shader: {fileID: 4800000, guid: f24809d953f26f64b9c352c89807da80, type: 3}
+    ShaderPath: Assets/3D_Art/Shaders/water/Shaders/ToonWater.shader
+    ShaderDefinedKeywords:
+    - STEREO_CUBEMAP_RENDER_ON
+    - STEREO_INSTANCING_ON
+    - STEREO_MULTIVIEW_ON
+    - UNITY_SINGLE_PASS_STEREO
+    fallbackShader: {fileID: 0}
+    CompilationErrors: []
+    Variants:
+    - shaderCompilerPlatform: 5
+      shader: {fileID: 4800000, guid: f24809d953f26f64b9c352c89807da80, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords: []
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: f24809d953f26f64b9c352c89807da80, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords: []
   - ParsedSubShaders:
     - Index: 0
       Passes:
@@ -8021,7 +8130,6 @@ MonoBehaviour:
           - _SUNDISK_NONE
           - _SUNDISK_SIMPLE
           - _SUNDISK_HIGH_QUALITY
-          hasDiscard: 0
         KeywordsMinimalCardinality: 1
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -11650,182 +11758,149 @@ MonoBehaviour:
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         - Keywords:
           - __
           - INSTANCING_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _NORMALMAP
-          hasDiscard: 1
         - Keywords:
           - _
           - _ALPHATEST_ON
           - _ALPHABLEND_ON
           - _ALPHAPREMULTIPLY_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _METALLICGLOSSMAP
-          hasDiscard: 1
         - Keywords:
           - _
           - _PARALLAXMAP
-          hasDiscard: 1
         - Keywords:
           - DIRECTIONAL
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -11833,7 +11908,6 @@ MonoBehaviour:
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -11841,123 +11915,103 @@ MonoBehaviour:
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -11965,7 +12019,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -11973,40 +12026,34 @@ MonoBehaviour:
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -12014,7 +12061,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -12022,14 +12068,12 @@ MonoBehaviour:
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DIRLIGHTMAP_COMBINED
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -12037,7 +12081,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -12045,7 +12088,6 @@ MonoBehaviour:
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -12053,7 +12095,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -12062,7 +12103,6 @@ MonoBehaviour:
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -12071,71 +12111,59 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DIRLIGHTMAP_COMBINED
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
@@ -12143,27 +12171,23 @@ MonoBehaviour:
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
@@ -12171,14 +12195,12 @@ MonoBehaviour:
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
@@ -12186,7 +12208,6 @@ MonoBehaviour:
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
@@ -12194,7 +12215,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
@@ -12203,7 +12223,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         KeywordsMinimalCardinality: 83
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -12935,257 +12954,205 @@ MonoBehaviour:
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         - Keywords:
           - _
           - _NORMALMAP
-          hasDiscard: 1
         - Keywords:
           - _
           - _ALPHATEST_ON
           - _ALPHABLEND_ON
           - _ALPHAPREMULTIPLY_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _METALLICGLOSSMAP
-          hasDiscard: 1
         - Keywords:
           - _
           - _PARALLAXMAP
-          hasDiscard: 1
         - Keywords:
           - POINT
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
-          hasDiscard: 0
         - Keywords:
           - SPOT
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SOFT
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SOFT
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SOFT
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SOFT
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SOFT
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SOFT
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SOFT
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SOFT
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SOFT
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SOFT
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SOFT
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SOFT
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         KeywordsMinimalCardinality: 47
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -13264,27 +13231,21 @@ MonoBehaviour:
         - Keywords:
           - __
           - INSTANCING_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _ALPHATEST_ON
           - _ALPHABLEND_ON
           - _ALPHAPREMULTIPLY_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _METALLICGLOSSMAP
-          hasDiscard: 1
         - Keywords:
           - _
           - _PARALLAXMAP
-          hasDiscard: 1
         - Keywords:
           - SHADOWS_DEPTH
-          hasDiscard: 0
         - Keywords:
           - SHADOWS_CUBE
-          hasDiscard: 0
         KeywordsMinimalCardinality: 2
         ContainsInvalidVariant: 0
         VariantStructures: []
@@ -15482,221 +15443,182 @@ MonoBehaviour:
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         - Keywords:
           - _
           - _NORMALMAP
-          hasDiscard: 1
         - Keywords:
           - _
           - _ALPHATEST_ON
           - _ALPHABLEND_ON
           - _ALPHAPREMULTIPLY_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _METALLICGLOSSMAP
-          hasDiscard: 1
         - Keywords:
           - DIRECTIONAL
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -15704,7 +15626,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTMAP_ON
@@ -15712,85 +15633,71 @@ MonoBehaviour:
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DYNAMICLIGHTMAP_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - DYNAMICLIGHTMAP_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
@@ -15798,7 +15705,6 @@ MonoBehaviour:
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
@@ -15806,7 +15712,6 @@ MonoBehaviour:
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         KeywordsMinimalCardinality: 52
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -16406,181 +16311,142 @@ MonoBehaviour:
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         - Keywords:
           - _
           - _NORMALMAP
-          hasDiscard: 1
         - Keywords:
           - _
           - _ALPHATEST_ON
           - _ALPHABLEND_ON
           - _ALPHAPREMULTIPLY_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _METALLICGLOSSMAP
-          hasDiscard: 1
         - Keywords:
           - POINT
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
-          hasDiscard: 0
         - Keywords:
           - SPOT
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         KeywordsMinimalCardinality: 35
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -16658,17 +16524,13 @@ MonoBehaviour:
           - _ALPHATEST_ON
           - _ALPHABLEND_ON
           - _ALPHAPREMULTIPLY_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _METALLICGLOSSMAP
-          hasDiscard: 1
         - Keywords:
           - SHADOWS_DEPTH
-          hasDiscard: 0
         - Keywords:
           - SHADOWS_CUBE
-          hasDiscard: 0
         KeywordsMinimalCardinality: 2
         ContainsInvalidVariant: 0
         VariantStructures: []
@@ -17109,6 +16971,1408 @@ MonoBehaviour:
       passType: 5
       passId: 1
       subShaderIndex: 1
+      upToDate: 0
+      keywords:
+      - DIRECTIONAL
+  - ParsedSubShaders:
+    - Index: 0
+      Passes:
+      - Shader: {fileID: 4800000, guid: 5a21140ba69b307499536057a340bcea, type: 3}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 5
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 100\n\nuniform \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform
+            \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nattribute highp vec4 in_POSITION0;\nvec4
+            u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n    u_xlat0 = in_POSITION0.yyyy
+            * hlslcc_mtx4x4unity_ObjectToWorld[1];\n    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0]
+            * in_POSITION0.xxxx + u_xlat0;\n    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2]
+            * in_POSITION0.zzzz + u_xlat0;\n    u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n   
+            u_xlat1 = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1
+            = hlslcc_mtx4x4unity_MatrixVP[0] * u_xlat0.xxxx + u_xlat1;\n    u_xlat1
+            = hlslcc_mtx4x4unity_MatrixVP[2] * u_xlat0.zzzz + u_xlat1;\n    gl_Position
+            = hlslcc_mtx4x4unity_MatrixVP[3] * u_xlat0.wwww + u_xlat1;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 100\n\n#ifdef GL_FRAGMENT_PRECISION_HIGH\n   
+            precision highp float;\n#else\n    precision mediump float;\n#endif\nprecision
+            highp int;\n#define SV_Target0 gl_FragData[0]\nvoid main()\n{\n    SV_Target0
+            = vec4(0.0, 0.0, 0.0, 0.0);\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords: []
+          Tags:
+          - Key: QUEUE
+            Value: Geometry+1
+          - Key: RenderType
+            Value: Opaque
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nin
+            highp vec4 in_POSITION0;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    gl_Position = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\nlayout(location = 0) out mediump vec4 SV_Target0;\nvoid main()\n{\n   
+            SV_Target0 = vec4(0.0, 0.0, 0.0, 0.0);\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords: []
+          Tags:
+          - Key: QUEUE
+            Value: Geometry+1
+          - Key: RenderType
+            Value: Opaque
+        DefinedKeywords:
+        - STEREO_CUBEMAP_RENDER_ON
+        - STEREO_INSTANCING_ON
+        - STEREO_MULTIVIEW_ON
+        - UNITY_SINGLE_PASS_STEREO
+        KeywordGroups: []
+        KeywordsMinimalCardinality: 0
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 5
+          shader: {fileID: 4800000, guid: 5a21140ba69b307499536057a340bcea, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords: []
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: 5a21140ba69b307499536057a340bcea, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords: []
+        CompilationErrors: []
+        HasDepthReader: 0
+        Id: 0
+        SubShaderIndex: 0
+        SerializedObjectId: 0
+        Tags:
+        - Key: QUEUE
+          Value: Geometry+1
+        - Key: RenderType
+          Value: Opaque
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: -1
+      Shader: {fileID: 4800000, guid: 5a21140ba69b307499536057a340bcea, type: 3}
+      Tags:
+      - Key: QUEUE
+        Value: Geometry+1
+      - Key: RenderType
+        Value: Opaque
+    Shader: {fileID: 4800000, guid: 5a21140ba69b307499536057a340bcea, type: 3}
+    ShaderPath: Assets/_Assistance/_Hole/Tony/Hole_BuiltIn.shader
+    ShaderDefinedKeywords:
+    - STEREO_CUBEMAP_RENDER_ON
+    - STEREO_INSTANCING_ON
+    - STEREO_MULTIVIEW_ON
+    - UNITY_SINGLE_PASS_STEREO
+    fallbackShader: {fileID: 0}
+    CompilationErrors: []
+    Variants:
+    - shaderCompilerPlatform: 5
+      shader: {fileID: 4800000, guid: 5a21140ba69b307499536057a340bcea, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords: []
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: 5a21140ba69b307499536057a340bcea, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords: []
+  - ParsedSubShaders:
+    - Index: 0
+      Passes:
+      - Shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 5
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 100\n\nuniform \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform
+            \tvec4 hlslcc_mtx4x4unity_WorldToObject[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tvec4 _MainTex_ST;\nattribute highp vec4 in_POSITION0;\nattribute highp
+            vec3 in_NORMAL0;\nattribute highp vec4 in_TEXCOORD0;\nvarying highp vec2
+            vs_TEXCOORD0;\nvarying highp vec3 vs_TEXCOORD1;\nvarying highp vec3 vs_TEXCOORD2;\nvarying
+            mediump vec3 vs_TEXCOORD3;\nvarying highp vec4 vs_TEXCOORD5;\nvarying
+            highp vec4 vs_TEXCOORD6;\nvec4 u_xlat0;\nvec4 u_xlat1;\nfloat u_xlat6;\nvoid
+            main()\n{\n    u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat1 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    vs_TEXCOORD2.xyz
+            = hlslcc_mtx4x4unity_ObjectToWorld[3].xyz * in_POSITION0.www + u_xlat0.xyz;\n   
+            u_xlat0 = u_xlat1.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat0
+            = hlslcc_mtx4x4unity_MatrixVP[0] * u_xlat1.xxxx + u_xlat0;\n    u_xlat0
+            = hlslcc_mtx4x4unity_MatrixVP[2] * u_xlat1.zzzz + u_xlat0;\n    gl_Position
+            = hlslcc_mtx4x4unity_MatrixVP[3] * u_xlat1.wwww + u_xlat0;\n    vs_TEXCOORD0.xy
+            = in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;\n    u_xlat0.x =
+            dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[0].xyz);\n    u_xlat0.y
+            = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[1].xyz);\n   
+            u_xlat0.z = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[2].xyz);\n   
+            u_xlat6 = dot(u_xlat0.xyz, u_xlat0.xyz);\n    u_xlat6 = inversesqrt(u_xlat6);\n   
+            vs_TEXCOORD1.xyz = vec3(u_xlat6) * u_xlat0.xyz;\n    vs_TEXCOORD3.xyz
+            = vec3(0.0, 0.0, 0.0);\n    vs_TEXCOORD5 = vec4(0.0, 0.0, 0.0, 0.0);\n   
+            vs_TEXCOORD6 = vec4(0.0, 0.0, 0.0, 0.0);\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 100\n\n#ifdef GL_FRAGMENT_PRECISION_HIGH\n   
+            precision highp float;\n#else\n    precision mediump float;\n#endif\nprecision
+            highp int;\nuniform \tmediump vec4 _WorldSpaceLightPos0;\nuniform \tmediump
+            vec4 _LightColor0;\nuniform \tmediump vec4 _Color;\nuniform lowp sampler2D
+            _MainTex;\nuniform lowp sampler2D _Ramp;\nvarying highp vec2 vs_TEXCOORD0;\nvarying
+            highp vec3 vs_TEXCOORD1;\nvarying mediump vec3 vs_TEXCOORD3;\n#define
+            SV_Target0 gl_FragData[0]\nmediump vec3 u_xlat16_0;\nlowp vec3 u_xlat10_1;\nvec3
+            u_xlat2;\nlowp vec3 u_xlat10_2;\nvoid main()\n{\n    u_xlat16_0.x = dot(vs_TEXCOORD1.xyz,
+            _WorldSpaceLightPos0.xyz);\n    u_xlat16_0.x = u_xlat16_0.x * 0.5 + 0.5;\n   
+            u_xlat10_1.xyz = texture2D(_Ramp, u_xlat16_0.xx).xyz;\n    u_xlat10_2.xyz
+            = texture2D(_MainTex, vs_TEXCOORD0.xy).xyz;\n    u_xlat2.xyz = u_xlat10_2.xyz
+            * _Color.xyz;\n    u_xlat16_0.xyz = u_xlat2.xyz * _LightColor0.xyz;\n   
+            u_xlat16_0.xyz = u_xlat10_1.xyz * u_xlat16_0.xyz;\n    u_xlat16_0.xyz
+            = u_xlat16_0.xyz + u_xlat16_0.xyz;\n    SV_Target0.xyz = u_xlat2.xyz
+            * vs_TEXCOORD3.xyz + u_xlat16_0.xyz;\n    SV_Target0.w = 1.0;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+          - DIRECTIONAL
+          Tags:
+          - Key: LIGHTMODE
+            Value: FORWARDBASE
+          - Key: QUEUE
+            Value: Geometry+3
+          - Key: RenderType
+            Value: Opaque
+          - Key: SHADOWSUPPORT
+            Value: true
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_WorldToObject[4];\nuniform
+            \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform \tvec4 _MainTex_ST;\nin
+            highp vec4 in_POSITION0;\nin highp vec3 in_NORMAL0;\nin highp vec4 in_TEXCOORD0;\nout
+            highp vec2 vs_TEXCOORD0;\nout highp vec3 vs_TEXCOORD1;\nout highp vec3
+            vs_TEXCOORD2;\nout mediump vec3 vs_TEXCOORD3;\nout highp vec4 vs_TEXCOORD5;\nout
+            highp vec4 vs_TEXCOORD6;\nvec4 u_xlat0;\nvec4 u_xlat1;\nfloat u_xlat6;\nvoid
+            main()\n{\n    u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat1 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    vs_TEXCOORD2.xyz
+            = hlslcc_mtx4x4unity_ObjectToWorld[3].xyz * in_POSITION0.www + u_xlat0.xyz;\n   
+            u_xlat0 = u_xlat1.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat0
+            = hlslcc_mtx4x4unity_MatrixVP[0] * u_xlat1.xxxx + u_xlat0;\n    u_xlat0
+            = hlslcc_mtx4x4unity_MatrixVP[2] * u_xlat1.zzzz + u_xlat0;\n    gl_Position
+            = hlslcc_mtx4x4unity_MatrixVP[3] * u_xlat1.wwww + u_xlat0;\n    vs_TEXCOORD0.xy
+            = in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;\n    u_xlat0.x =
+            dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[0].xyz);\n    u_xlat0.y
+            = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[1].xyz);\n   
+            u_xlat0.z = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[2].xyz);\n   
+            u_xlat6 = dot(u_xlat0.xyz, u_xlat0.xyz);\n    u_xlat6 = inversesqrt(u_xlat6);\n   
+            vs_TEXCOORD1.xyz = vec3(u_xlat6) * u_xlat0.xyz;\n    vs_TEXCOORD3.xyz
+            = vec3(0.0, 0.0, 0.0);\n    vs_TEXCOORD5 = vec4(0.0, 0.0, 0.0, 0.0);\n   
+            vs_TEXCOORD6 = vec4(0.0, 0.0, 0.0, 0.0);\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tmediump vec4 _WorldSpaceLightPos0;\nuniform
+            \tmediump vec4 _LightColor0;\nuniform \tmediump vec4 _Color;\nUNITY_LOCATION(0)
+            uniform mediump sampler2D _MainTex;\nUNITY_LOCATION(1) uniform mediump
+            sampler2D _Ramp;\nin highp vec2 vs_TEXCOORD0;\nin highp vec3 vs_TEXCOORD1;\nin
+            mediump vec3 vs_TEXCOORD3;\nlayout(location = 0) out mediump vec4 SV_Target0;\nmediump
+            vec3 u_xlat16_0;\nmediump vec3 u_xlat16_1;\nvec3 u_xlat2;\nmediump vec3
+            u_xlat16_2;\nvoid main()\n{\n    u_xlat16_0.x = dot(vs_TEXCOORD1.xyz,
+            _WorldSpaceLightPos0.xyz);\n    u_xlat16_0.x = u_xlat16_0.x * 0.5 + 0.5;\n   
+            u_xlat16_1.xyz = texture(_Ramp, u_xlat16_0.xx).xyz;\n    u_xlat16_2.xyz
+            = texture(_MainTex, vs_TEXCOORD0.xy).xyz;\n    u_xlat2.xyz = u_xlat16_2.xyz
+            * _Color.xyz;\n    u_xlat16_0.xyz = u_xlat2.xyz * _LightColor0.xyz;\n   
+            u_xlat16_0.xyz = u_xlat16_1.xyz * u_xlat16_0.xyz;\n    u_xlat16_0.xyz
+            = u_xlat16_0.xyz + u_xlat16_0.xyz;\n    SV_Target0.xyz = u_xlat2.xyz
+            * vs_TEXCOORD3.xyz + u_xlat16_0.xyz;\n    SV_Target0.w = 1.0;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+          - DIRECTIONAL
+          Tags:
+          - Key: LIGHTMODE
+            Value: FORWARDBASE
+          - Key: QUEUE
+            Value: Geometry+3
+          - Key: RenderType
+            Value: Opaque
+          - Key: SHADOWSUPPORT
+            Value: true
+        - ShaderCompilerPlatform: 5
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 100\n\nuniform \tmediump vec4 unity_SHAr;\nuniform
+            \tmediump vec4 unity_SHAg;\nuniform \tmediump vec4 unity_SHAb;\nuniform
+            \tmediump vec4 unity_SHBr;\nuniform \tmediump vec4 unity_SHBg;\nuniform
+            \tmediump vec4 unity_SHBb;\nuniform \tmediump vec4 unity_SHC;\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_WorldToObject[4];\nuniform
+            \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform \tvec4 _MainTex_ST;\nattribute
+            highp vec4 in_POSITION0;\nattribute highp vec3 in_NORMAL0;\nattribute
+            highp vec4 in_TEXCOORD0;\nvarying highp vec2 vs_TEXCOORD0;\nvarying highp
+            vec3 vs_TEXCOORD1;\nvarying highp vec3 vs_TEXCOORD2;\nvarying mediump
+            vec3 vs_TEXCOORD3;\nvarying highp vec4 vs_TEXCOORD5;\nvarying highp vec4
+            vs_TEXCOORD6;\nvec4 u_xlat0;\nvec4 u_xlat1;\nmediump vec4 u_xlat16_1;\nmediump
+            vec3 u_xlat16_2;\nmediump vec3 u_xlat16_3;\nfloat u_xlat12;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat1 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    vs_TEXCOORD2.xyz
+            = hlslcc_mtx4x4unity_ObjectToWorld[3].xyz * in_POSITION0.www + u_xlat0.xyz;\n   
+            u_xlat0 = u_xlat1.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat0
+            = hlslcc_mtx4x4unity_MatrixVP[0] * u_xlat1.xxxx + u_xlat0;\n    u_xlat0
+            = hlslcc_mtx4x4unity_MatrixVP[2] * u_xlat1.zzzz + u_xlat0;\n    gl_Position
+            = hlslcc_mtx4x4unity_MatrixVP[3] * u_xlat1.wwww + u_xlat0;\n    vs_TEXCOORD0.xy
+            = in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;\n    u_xlat0.x =
+            dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[0].xyz);\n    u_xlat0.y
+            = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[1].xyz);\n   
+            u_xlat0.z = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[2].xyz);\n   
+            u_xlat12 = dot(u_xlat0.xyz, u_xlat0.xyz);\n    u_xlat12 = inversesqrt(u_xlat12);\n   
+            u_xlat0.xyz = vec3(u_xlat12) * u_xlat0.xyz;\n    vs_TEXCOORD1.xyz = u_xlat0.xyz;\n   
+            u_xlat16_2.x = u_xlat0.y * u_xlat0.y;\n    u_xlat16_2.x = u_xlat0.x *
+            u_xlat0.x + (-u_xlat16_2.x);\n    u_xlat16_1 = u_xlat0.yzzx * u_xlat0.xyzz;\n   
+            u_xlat16_3.x = dot(unity_SHBr, u_xlat16_1);\n    u_xlat16_3.y = dot(unity_SHBg,
+            u_xlat16_1);\n    u_xlat16_3.z = dot(unity_SHBb, u_xlat16_1);\n    u_xlat16_2.xyz
+            = unity_SHC.xyz * u_xlat16_2.xxx + u_xlat16_3.xyz;\n    u_xlat0.w = 1.0;\n   
+            u_xlat16_3.x = dot(unity_SHAr, u_xlat0);\n    u_xlat16_3.y = dot(unity_SHAg,
+            u_xlat0);\n    u_xlat16_3.z = dot(unity_SHAb, u_xlat0);\n    u_xlat16_2.xyz
+            = u_xlat16_2.xyz + u_xlat16_3.xyz;\n    u_xlat16_2.xyz = max(u_xlat16_2.xyz,
+            vec3(0.0, 0.0, 0.0));\n    u_xlat0.xyz = log2(u_xlat16_2.xyz);\n    u_xlat0.xyz
+            = u_xlat0.xyz * vec3(0.416666657, 0.416666657, 0.416666657);\n    u_xlat0.xyz
+            = exp2(u_xlat0.xyz);\n    u_xlat0.xyz = u_xlat0.xyz * vec3(1.05499995,
+            1.05499995, 1.05499995) + vec3(-0.0549999997, -0.0549999997, -0.0549999997);\n   
+            u_xlat0.xyz = max(u_xlat0.xyz, vec3(0.0, 0.0, 0.0));\n    vs_TEXCOORD3.xyz
+            = u_xlat0.xyz;\n    vs_TEXCOORD5 = vec4(0.0, 0.0, 0.0, 0.0);\n    vs_TEXCOORD6
+            = vec4(0.0, 0.0, 0.0, 0.0);\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 100\n\n#ifdef GL_FRAGMENT_PRECISION_HIGH\n   
+            precision highp float;\n#else\n    precision mediump float;\n#endif\nprecision
+            highp int;\nuniform \tmediump vec4 _WorldSpaceLightPos0;\nuniform \tmediump
+            vec4 _LightColor0;\nuniform \tmediump vec4 _Color;\nuniform lowp sampler2D
+            _MainTex;\nuniform lowp sampler2D _Ramp;\nvarying highp vec2 vs_TEXCOORD0;\nvarying
+            highp vec3 vs_TEXCOORD1;\nvarying mediump vec3 vs_TEXCOORD3;\n#define
+            SV_Target0 gl_FragData[0]\nmediump vec3 u_xlat16_0;\nlowp vec3 u_xlat10_1;\nvec3
+            u_xlat2;\nlowp vec3 u_xlat10_2;\nvoid main()\n{\n    u_xlat16_0.x = dot(vs_TEXCOORD1.xyz,
+            _WorldSpaceLightPos0.xyz);\n    u_xlat16_0.x = u_xlat16_0.x * 0.5 + 0.5;\n   
+            u_xlat10_1.xyz = texture2D(_Ramp, u_xlat16_0.xx).xyz;\n    u_xlat10_2.xyz
+            = texture2D(_MainTex, vs_TEXCOORD0.xy).xyz;\n    u_xlat2.xyz = u_xlat10_2.xyz
+            * _Color.xyz;\n    u_xlat16_0.xyz = u_xlat2.xyz * _LightColor0.xyz;\n   
+            u_xlat16_0.xyz = u_xlat10_1.xyz * u_xlat16_0.xyz;\n    u_xlat16_0.xyz
+            = u_xlat16_0.xyz + u_xlat16_0.xyz;\n    SV_Target0.xyz = u_xlat2.xyz
+            * vs_TEXCOORD3.xyz + u_xlat16_0.xyz;\n    SV_Target0.w = 1.0;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+          - DIRECTIONAL
+          - LIGHTPROBE_SH
+          Tags:
+          - Key: LIGHTMODE
+            Value: FORWARDBASE
+          - Key: QUEUE
+            Value: Geometry+3
+          - Key: RenderType
+            Value: Opaque
+          - Key: SHADOWSUPPORT
+            Value: true
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tmediump vec4 unity_SHAr;\nuniform \tmediump vec4 unity_SHAg;\nuniform
+            \tmediump vec4 unity_SHAb;\nuniform \tmediump vec4 unity_SHBr;\nuniform
+            \tmediump vec4 unity_SHBg;\nuniform \tmediump vec4 unity_SHBb;\nuniform
+            \tmediump vec4 unity_SHC;\nuniform \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform
+            \tvec4 hlslcc_mtx4x4unity_WorldToObject[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tvec4 _MainTex_ST;\nin highp vec4 in_POSITION0;\nin highp vec3 in_NORMAL0;\nin
+            highp vec4 in_TEXCOORD0;\nout highp vec2 vs_TEXCOORD0;\nout highp vec3
+            vs_TEXCOORD1;\nout highp vec3 vs_TEXCOORD2;\nout mediump vec3 vs_TEXCOORD3;\nout
+            highp vec4 vs_TEXCOORD5;\nout highp vec4 vs_TEXCOORD6;\nvec4 u_xlat0;\nvec4
+            u_xlat1;\nmediump vec4 u_xlat16_1;\nmediump vec3 u_xlat16_2;\nmediump
+            vec3 u_xlat16_3;\nfloat u_xlat12;\nvoid main()\n{\n    u_xlat0 = in_POSITION0.yyyy
+            * hlslcc_mtx4x4unity_ObjectToWorld[1];\n    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0]
+            * in_POSITION0.xxxx + u_xlat0;\n    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2]
+            * in_POSITION0.zzzz + u_xlat0;\n    u_xlat1 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n   
+            vs_TEXCOORD2.xyz = hlslcc_mtx4x4unity_ObjectToWorld[3].xyz * in_POSITION0.www
+            + u_xlat0.xyz;\n    u_xlat0 = u_xlat1.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_MatrixVP[0] * u_xlat1.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_MatrixVP[2] * u_xlat1.zzzz + u_xlat0;\n   
+            gl_Position = hlslcc_mtx4x4unity_MatrixVP[3] * u_xlat1.wwww + u_xlat0;\n   
+            vs_TEXCOORD0.xy = in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;\n   
+            u_xlat0.x = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[0].xyz);\n   
+            u_xlat0.y = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[1].xyz);\n   
+            u_xlat0.z = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[2].xyz);\n   
+            u_xlat12 = dot(u_xlat0.xyz, u_xlat0.xyz);\n    u_xlat12 = inversesqrt(u_xlat12);\n   
+            u_xlat0.xyz = vec3(u_xlat12) * u_xlat0.xyz;\n    vs_TEXCOORD1.xyz = u_xlat0.xyz;\n   
+            u_xlat16_2.x = u_xlat0.y * u_xlat0.y;\n    u_xlat16_2.x = u_xlat0.x *
+            u_xlat0.x + (-u_xlat16_2.x);\n    u_xlat16_1 = u_xlat0.yzzx * u_xlat0.xyzz;\n   
+            u_xlat16_3.x = dot(unity_SHBr, u_xlat16_1);\n    u_xlat16_3.y = dot(unity_SHBg,
+            u_xlat16_1);\n    u_xlat16_3.z = dot(unity_SHBb, u_xlat16_1);\n    u_xlat16_2.xyz
+            = unity_SHC.xyz * u_xlat16_2.xxx + u_xlat16_3.xyz;\n    u_xlat0.w = 1.0;\n   
+            u_xlat16_3.x = dot(unity_SHAr, u_xlat0);\n    u_xlat16_3.y = dot(unity_SHAg,
+            u_xlat0);\n    u_xlat16_3.z = dot(unity_SHAb, u_xlat0);\n    u_xlat16_2.xyz
+            = u_xlat16_2.xyz + u_xlat16_3.xyz;\n    u_xlat16_2.xyz = max(u_xlat16_2.xyz,
+            vec3(0.0, 0.0, 0.0));\n    u_xlat0.xyz = log2(u_xlat16_2.xyz);\n    u_xlat0.xyz
+            = u_xlat0.xyz * vec3(0.416666657, 0.416666657, 0.416666657);\n    u_xlat0.xyz
+            = exp2(u_xlat0.xyz);\n    u_xlat0.xyz = u_xlat0.xyz * vec3(1.05499995,
+            1.05499995, 1.05499995) + vec3(-0.0549999997, -0.0549999997, -0.0549999997);\n   
+            u_xlat0.xyz = max(u_xlat0.xyz, vec3(0.0, 0.0, 0.0));\n    vs_TEXCOORD3.xyz
+            = u_xlat0.xyz;\n    vs_TEXCOORD5 = vec4(0.0, 0.0, 0.0, 0.0);\n    vs_TEXCOORD6
+            = vec4(0.0, 0.0, 0.0, 0.0);\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tmediump vec4 _WorldSpaceLightPos0;\nuniform
+            \tmediump vec4 _LightColor0;\nuniform \tmediump vec4 _Color;\nUNITY_LOCATION(0)
+            uniform mediump sampler2D _MainTex;\nUNITY_LOCATION(1) uniform mediump
+            sampler2D _Ramp;\nin highp vec2 vs_TEXCOORD0;\nin highp vec3 vs_TEXCOORD1;\nin
+            mediump vec3 vs_TEXCOORD3;\nlayout(location = 0) out mediump vec4 SV_Target0;\nmediump
+            vec3 u_xlat16_0;\nmediump vec3 u_xlat16_1;\nvec3 u_xlat2;\nmediump vec3
+            u_xlat16_2;\nvoid main()\n{\n    u_xlat16_0.x = dot(vs_TEXCOORD1.xyz,
+            _WorldSpaceLightPos0.xyz);\n    u_xlat16_0.x = u_xlat16_0.x * 0.5 + 0.5;\n   
+            u_xlat16_1.xyz = texture(_Ramp, u_xlat16_0.xx).xyz;\n    u_xlat16_2.xyz
+            = texture(_MainTex, vs_TEXCOORD0.xy).xyz;\n    u_xlat2.xyz = u_xlat16_2.xyz
+            * _Color.xyz;\n    u_xlat16_0.xyz = u_xlat2.xyz * _LightColor0.xyz;\n   
+            u_xlat16_0.xyz = u_xlat16_1.xyz * u_xlat16_0.xyz;\n    u_xlat16_0.xyz
+            = u_xlat16_0.xyz + u_xlat16_0.xyz;\n    SV_Target0.xyz = u_xlat2.xyz
+            * vs_TEXCOORD3.xyz + u_xlat16_0.xyz;\n    SV_Target0.w = 1.0;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+          - DIRECTIONAL
+          - LIGHTPROBE_SH
+          Tags:
+          - Key: LIGHTMODE
+            Value: FORWARDBASE
+          - Key: QUEUE
+            Value: Geometry+3
+          - Key: RenderType
+            Value: Opaque
+          - Key: SHADOWSUPPORT
+            Value: true
+        DefinedKeywords:
+        - DIRECTIONAL
+        - DIRLIGHTMAP_COMBINED
+        - DYNAMICLIGHTMAP_ON
+        - FOG_EXP
+        - FOG_EXP2
+        - FOG_LINEAR
+        - INSTANCING_ON
+        - LIGHTMAP_ON
+        - LIGHTMAP_SHADOW_MIXING
+        - LIGHTPROBE_SH
+        - SHADOWS_SCREEN
+        - SHADOWS_SHADOWMASK
+        - STEREO_CUBEMAP_RENDER_ON
+        - STEREO_INSTANCING_ON
+        - STEREO_MULTIVIEW_ON
+        - UNITY_SINGLE_PASS_STEREO
+        - VERTEXLIGHT_ON
+        - __
+        KeywordGroups:
+        - Keywords:
+          - __
+          - INSTANCING_ON
+        - Keywords:
+          - __
+          - FOG_LINEAR
+          - FOG_EXP
+          - FOG_EXP2
+        - Keywords:
+          - DIRECTIONAL
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - SHADOWS_SHADOWMASK
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - DYNAMICLIGHTMAP_ON
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DYNAMICLIGHTMAP_ON
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DYNAMICLIGHTMAP_ON
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - LIGHTMAP_SHADOW_MIXING
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - LIGHTMAP_SHADOW_MIXING
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - SHADOWS_SHADOWMASK
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - SHADOWS_SHADOWMASK
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - SHADOWS_SCREEN
+        - Keywords:
+          - DIRECTIONAL
+          - SHADOWS_SCREEN
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+        - Keywords:
+          - DIRECTIONAL
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - SHADOWS_SCREEN
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - SHADOWS_SCREEN
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - SHADOWS_SCREEN
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - LIGHTMAP_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - DYNAMICLIGHTMAP_ON
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - SHADOWS_SCREEN
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - SHADOWS_SCREEN
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+          - LIGHTPROBE_SH
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - VERTEXLIGHT_ON
+          - DIRLIGHTMAP_COMBINED
+          - DYNAMICLIGHTMAP_ON
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        KeywordsMinimalCardinality: 83
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 5
+          shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+          passType: 4
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+          - DIRECTIONAL
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+          passType: 4
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+          - DIRECTIONAL
+        - shaderCompilerPlatform: 5
+          shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+          passType: 4
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+          - DIRECTIONAL
+          - LIGHTPROBE_SH
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+          passType: 4
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+          - DIRECTIONAL
+          - LIGHTPROBE_SH
+        CompilationErrors: []
+        HasDepthReader: 0
+        Id: 0
+        SubShaderIndex: 0
+        SerializedObjectId: 0
+        Tags:
+        - Key: LIGHTMODE
+          Value: FORWARDBASE
+        - Key: QUEUE
+          Value: Geometry+3
+        - Key: RenderType
+          Value: Opaque
+        - Key: SHADOWSUPPORT
+          Value: true
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: -1
+      - Shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 5
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 100\n\nuniform \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform
+            \tvec4 hlslcc_mtx4x4unity_WorldToObject[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tvec4 _MainTex_ST;\nattribute highp vec4 in_POSITION0;\nattribute highp
+            vec3 in_NORMAL0;\nattribute highp vec4 in_TEXCOORD0;\nvarying highp vec2
+            vs_TEXCOORD0;\nvarying highp vec3 vs_TEXCOORD1;\nvarying highp vec3 vs_TEXCOORD2;\nvarying
+            highp vec4 vs_TEXCOORD4;\nvec4 u_xlat0;\nvec4 u_xlat1;\nfloat u_xlat6;\nvoid
+            main()\n{\n    u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat1 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    vs_TEXCOORD2.xyz
+            = hlslcc_mtx4x4unity_ObjectToWorld[3].xyz * in_POSITION0.www + u_xlat0.xyz;\n   
+            u_xlat0 = u_xlat1.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat0
+            = hlslcc_mtx4x4unity_MatrixVP[0] * u_xlat1.xxxx + u_xlat0;\n    u_xlat0
+            = hlslcc_mtx4x4unity_MatrixVP[2] * u_xlat1.zzzz + u_xlat0;\n    gl_Position
+            = hlslcc_mtx4x4unity_MatrixVP[3] * u_xlat1.wwww + u_xlat0;\n    vs_TEXCOORD0.xy
+            = in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;\n    u_xlat0.x =
+            dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[0].xyz);\n    u_xlat0.y
+            = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[1].xyz);\n   
+            u_xlat0.z = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[2].xyz);\n   
+            u_xlat6 = dot(u_xlat0.xyz, u_xlat0.xyz);\n    u_xlat6 = inversesqrt(u_xlat6);\n   
+            vs_TEXCOORD1.xyz = vec3(u_xlat6) * u_xlat0.xyz;\n    vs_TEXCOORD4 = vec4(0.0,
+            0.0, 0.0, 0.0);\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 100\n\n#ifdef GL_FRAGMENT_PRECISION_HIGH\n   
+            precision highp float;\n#else\n    precision mediump float;\n#endif\nprecision
+            highp int;\nuniform \tmediump vec4 _WorldSpaceLightPos0;\nuniform \tmediump
+            vec4 _LightColor0;\nuniform \tmediump vec4 _Color;\nuniform lowp sampler2D
+            _MainTex;\nuniform lowp sampler2D _Ramp;\nvarying highp vec2 vs_TEXCOORD0;\nvarying
+            highp vec3 vs_TEXCOORD1;\n#define SV_Target0 gl_FragData[0]\nmediump
+            vec3 u_xlat16_0;\nlowp vec3 u_xlat10_1;\nvec3 u_xlat2;\nlowp vec3 u_xlat10_2;\nvoid
+            main()\n{\n    u_xlat16_0.x = dot(vs_TEXCOORD1.xyz, _WorldSpaceLightPos0.xyz);\n   
+            u_xlat16_0.x = u_xlat16_0.x * 0.5 + 0.5;\n    u_xlat10_1.xyz = texture2D(_Ramp,
+            u_xlat16_0.xx).xyz;\n    u_xlat10_2.xyz = texture2D(_MainTex, vs_TEXCOORD0.xy).xyz;\n   
+            u_xlat2.xyz = u_xlat10_2.xyz * _Color.xyz;\n    u_xlat16_0.xyz = u_xlat2.xyz
+            * _LightColor0.xyz;\n    u_xlat16_0.xyz = u_xlat10_1.xyz * u_xlat16_0.xyz;\n   
+            SV_Target0.xyz = u_xlat16_0.xyz + u_xlat16_0.xyz;\n    SV_Target0.w =
+            1.0;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 1
+          SubShaderIndex: 0
+          Keywords:
+          - DIRECTIONAL
+          Tags:
+          - Key: LIGHTMODE
+            Value: FORWARDADD
+          - Key: QUEUE
+            Value: Geometry+3
+          - Key: RenderType
+            Value: Opaque
+          - Key: SHADOWSUPPORT
+            Value: true
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_WorldToObject[4];\nuniform
+            \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform \tvec4 _MainTex_ST;\nin
+            highp vec4 in_POSITION0;\nin highp vec3 in_NORMAL0;\nin highp vec4 in_TEXCOORD0;\nout
+            highp vec2 vs_TEXCOORD0;\nout highp vec3 vs_TEXCOORD1;\nout highp vec3
+            vs_TEXCOORD2;\nout highp vec4 vs_TEXCOORD4;\nvec4 u_xlat0;\nvec4 u_xlat1;\nfloat
+            u_xlat6;\nvoid main()\n{\n    u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat1 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    vs_TEXCOORD2.xyz
+            = hlslcc_mtx4x4unity_ObjectToWorld[3].xyz * in_POSITION0.www + u_xlat0.xyz;\n   
+            u_xlat0 = u_xlat1.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat0
+            = hlslcc_mtx4x4unity_MatrixVP[0] * u_xlat1.xxxx + u_xlat0;\n    u_xlat0
+            = hlslcc_mtx4x4unity_MatrixVP[2] * u_xlat1.zzzz + u_xlat0;\n    gl_Position
+            = hlslcc_mtx4x4unity_MatrixVP[3] * u_xlat1.wwww + u_xlat0;\n    vs_TEXCOORD0.xy
+            = in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;\n    u_xlat0.x =
+            dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[0].xyz);\n    u_xlat0.y
+            = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[1].xyz);\n   
+            u_xlat0.z = dot(in_NORMAL0.xyz, hlslcc_mtx4x4unity_WorldToObject[2].xyz);\n   
+            u_xlat6 = dot(u_xlat0.xyz, u_xlat0.xyz);\n    u_xlat6 = inversesqrt(u_xlat6);\n   
+            vs_TEXCOORD1.xyz = vec3(u_xlat6) * u_xlat0.xyz;\n    vs_TEXCOORD4 = vec4(0.0,
+            0.0, 0.0, 0.0);\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tmediump vec4 _WorldSpaceLightPos0;\nuniform
+            \tmediump vec4 _LightColor0;\nuniform \tmediump vec4 _Color;\nUNITY_LOCATION(0)
+            uniform mediump sampler2D _MainTex;\nUNITY_LOCATION(1) uniform mediump
+            sampler2D _Ramp;\nin highp vec2 vs_TEXCOORD0;\nin highp vec3 vs_TEXCOORD1;\nlayout(location
+            = 0) out mediump vec4 SV_Target0;\nmediump vec3 u_xlat16_0;\nmediump
+            vec3 u_xlat16_1;\nvec3 u_xlat2;\nmediump vec3 u_xlat16_2;\nvoid main()\n{\n   
+            u_xlat16_0.x = dot(vs_TEXCOORD1.xyz, _WorldSpaceLightPos0.xyz);\n   
+            u_xlat16_0.x = u_xlat16_0.x * 0.5 + 0.5;\n    u_xlat16_1.xyz = texture(_Ramp,
+            u_xlat16_0.xx).xyz;\n    u_xlat16_2.xyz = texture(_MainTex, vs_TEXCOORD0.xy).xyz;\n   
+            u_xlat2.xyz = u_xlat16_2.xyz * _Color.xyz;\n    u_xlat16_0.xyz = u_xlat2.xyz
+            * _LightColor0.xyz;\n    u_xlat16_0.xyz = u_xlat16_1.xyz * u_xlat16_0.xyz;\n   
+            SV_Target0.xyz = u_xlat16_0.xyz + u_xlat16_0.xyz;\n    SV_Target0.w =
+            1.0;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 1
+          SubShaderIndex: 0
+          Keywords:
+          - DIRECTIONAL
+          Tags:
+          - Key: LIGHTMODE
+            Value: FORWARDADD
+          - Key: QUEUE
+            Value: Geometry+3
+          - Key: RenderType
+            Value: Opaque
+          - Key: SHADOWSUPPORT
+            Value: true
+        DefinedKeywords:
+        - DIRECTIONAL
+        - DIRECTIONAL_COOKIE
+        - FOG_EXP
+        - FOG_EXP2
+        - FOG_LINEAR
+        - LIGHTMAP_SHADOW_MIXING
+        - POINT
+        - POINT_COOKIE
+        - SHADOWS_CUBE
+        - SHADOWS_DEPTH
+        - SHADOWS_SCREEN
+        - SHADOWS_SHADOWMASK
+        - SHADOWS_SOFT
+        - SPOT
+        - STEREO_CUBEMAP_RENDER_ON
+        - STEREO_INSTANCING_ON
+        - STEREO_MULTIVIEW_ON
+        - UNITY_SINGLE_PASS_STEREO
+        - __
+        KeywordGroups:
+        - Keywords:
+          - __
+          - FOG_LINEAR
+          - FOG_EXP
+          - FOG_EXP2
+        - Keywords:
+          - POINT
+        - Keywords:
+          - DIRECTIONAL
+        - Keywords:
+          - SPOT
+        - Keywords:
+          - POINT_COOKIE
+        - Keywords:
+          - DIRECTIONAL_COOKIE
+        - Keywords:
+          - POINT
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - SPOT
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - POINT_COOKIE
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL_COOKIE
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - POINT
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - SPOT
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - POINT_COOKIE
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL_COOKIE
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - SPOT
+          - SHADOWS_DEPTH
+        - Keywords:
+          - SPOT
+          - SHADOWS_DEPTH
+          - SHADOWS_SOFT
+        - Keywords:
+          - SPOT
+          - SHADOWS_DEPTH
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - SPOT
+          - SHADOWS_DEPTH
+          - SHADOWS_SOFT
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - SPOT
+          - SHADOWS_DEPTH
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - SPOT
+          - SHADOWS_DEPTH
+          - SHADOWS_SOFT
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - SPOT
+          - SHADOWS_DEPTH
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - SPOT
+          - SHADOWS_DEPTH
+          - SHADOWS_SOFT
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - SHADOWS_SCREEN
+        - Keywords:
+          - DIRECTIONAL_COOKIE
+          - SHADOWS_SCREEN
+        - Keywords:
+          - DIRECTIONAL
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL_COOKIE
+          - SHADOWS_SCREEN
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL_COOKIE
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - DIRECTIONAL
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - DIRECTIONAL_COOKIE
+          - SHADOWS_SCREEN
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - POINT
+          - SHADOWS_CUBE
+        - Keywords:
+          - POINT
+          - SHADOWS_CUBE
+          - SHADOWS_SOFT
+        - Keywords:
+          - POINT
+          - SHADOWS_CUBE
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - POINT
+          - SHADOWS_CUBE
+          - SHADOWS_SOFT
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - POINT
+          - SHADOWS_CUBE
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - POINT
+          - SHADOWS_CUBE
+          - SHADOWS_SOFT
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - POINT
+          - SHADOWS_CUBE
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - POINT
+          - SHADOWS_CUBE
+          - SHADOWS_SOFT
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - POINT_COOKIE
+          - SHADOWS_CUBE
+        - Keywords:
+          - POINT_COOKIE
+          - SHADOWS_CUBE
+          - SHADOWS_SOFT
+        - Keywords:
+          - POINT_COOKIE
+          - SHADOWS_CUBE
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - POINT_COOKIE
+          - SHADOWS_CUBE
+          - SHADOWS_SOFT
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - POINT_COOKIE
+          - SHADOWS_CUBE
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - POINT_COOKIE
+          - SHADOWS_CUBE
+          - SHADOWS_SOFT
+          - SHADOWS_SHADOWMASK
+        - Keywords:
+          - POINT_COOKIE
+          - SHADOWS_CUBE
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        - Keywords:
+          - POINT_COOKIE
+          - SHADOWS_CUBE
+          - SHADOWS_SOFT
+          - SHADOWS_SHADOWMASK
+          - LIGHTMAP_SHADOW_MIXING
+        KeywordsMinimalCardinality: 47
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 5
+          shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+          passType: 5
+          passId: 1
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+          - DIRECTIONAL
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+          passType: 5
+          passId: 1
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+          - DIRECTIONAL
+        CompilationErrors: []
+        HasDepthReader: 0
+        Id: 1
+        SubShaderIndex: 0
+        SerializedObjectId: 1
+        Tags:
+        - Key: LIGHTMODE
+          Value: FORWARDADD
+        - Key: QUEUE
+          Value: Geometry+3
+        - Key: RenderType
+          Value: Opaque
+        - Key: SHADOWSUPPORT
+          Value: true
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: -1
+      Shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+      Tags:
+      - Key: QUEUE
+        Value: Geometry+3
+      - Key: RenderType
+        Value: Opaque
+    Shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+    ShaderPath: Assets/_Assistance/_Hole/Tony/Table_Toon_BuiltIn.shader
+    ShaderDefinedKeywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - FOG_EXP
+    - FOG_EXP2
+    - FOG_LINEAR
+    - LIGHTMAP_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    - VERTEXLIGHT_ON
+    - DIRECTIONAL_COOKIE
+    - POINT
+    - POINT_COOKIE
+    - SHADOWS_DEPTH
+    - SPOT
+    - DYNAMICLIGHTMAP_ON
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - STEREO_CUBEMAP_RENDER_ON
+    - STEREO_INSTANCING_ON
+    - STEREO_MULTIVIEW_ON
+    - UNITY_SINGLE_PASS_STEREO
+    - __
+    - SHADOWS_CUBE
+    - SHADOWS_SOFT
+    fallbackShader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+    CompilationErrors: []
+    Variants:
+    - shaderCompilerPlatform: 5
+      shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+      passType: 4
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+      - DIRECTIONAL
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+      passType: 4
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+      - DIRECTIONAL
+    - shaderCompilerPlatform: 5
+      shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+      passType: 4
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+      - DIRECTIONAL
+      - LIGHTPROBE_SH
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+      passType: 4
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+      - DIRECTIONAL
+      - LIGHTPROBE_SH
+    - shaderCompilerPlatform: 5
+      shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+      passType: 5
+      passId: 1
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+      - DIRECTIONAL
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
+      passType: 5
+      passId: 1
+      subShaderIndex: 0
       upToDate: 0
       keywords:
       - DIRECTIONAL
@@ -19091,98 +20355,77 @@ MonoBehaviour:
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         - Keywords:
           - __
           - INSTANCING_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _RECEIVE_SHADOWS_OFF
-          hasDiscard: 1
         - Keywords:
           - _
           - TCP2_MOBILE
-          hasDiscard: 1
         - Keywords:
           - _
           - TCP2_RIM_LIGHTING
-          hasDiscard: 1
         - Keywords:
           - _
           - TCP2_RIM_LIGHTING_LIGHTMASK
-          hasDiscard: 1
         - Keywords:
           - _
           - TCP2_REFLECTIONS
-          hasDiscard: 1
         - Keywords:
           - _
           - TCP2_REFLECTIONS_FRESNEL
-          hasDiscard: 1
         - Keywords:
           - _
           - TCP2_MATCAP
-          hasDiscard: 1
         - Keywords:
           - _
           - _NORMALMAP
-          hasDiscard: 1
         - Keywords:
           - DIRECTIONAL
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTPROBE_SH
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - VERTEXLIGHT_ON
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
           - LIGHTPROBE_SH
-          hasDiscard: 0
         KeywordsMinimalCardinality: 11
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -20334,263 +21577,209 @@ MonoBehaviour:
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         - Keywords:
           - __
           - INSTANCING_ON
-          hasDiscard: 1
         - Keywords:
           - _
           - _RECEIVE_SHADOWS_OFF
-          hasDiscard: 1
         - Keywords:
           - _
           - TCP2_MOBILE
-          hasDiscard: 1
         - Keywords:
           - _
           - TCP2_RIM_LIGHTING
-          hasDiscard: 1
         - Keywords:
           - _
           - TCP2_RIM_LIGHTING_LIGHTMASK
-          hasDiscard: 1
         - Keywords:
           - _
           - _NORMALMAP
-          hasDiscard: 1
         - Keywords:
           - POINT
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
-          hasDiscard: 0
         - Keywords:
           - SPOT
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SOFT
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SOFT
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SOFT
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - SPOT
           - SHADOWS_DEPTH
           - SHADOWS_SOFT
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SCREEN
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SCREEN
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - DIRECTIONAL_COOKIE
           - SHADOWS_SCREEN
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SOFT
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SOFT
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SOFT
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT
           - SHADOWS_CUBE
           - SHADOWS_SOFT
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SOFT
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SOFT
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SOFT
           - SHADOWS_SHADOWMASK
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         - Keywords:
           - POINT_COOKIE
           - SHADOWS_CUBE
           - SHADOWS_SOFT
           - SHADOWS_SHADOWMASK
           - LIGHTMAP_SHADOW_MIXING
-          hasDiscard: 0
         KeywordsMinimalCardinality: 47
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -20741,13 +21930,10 @@ MonoBehaviour:
         - Keywords:
           - __
           - INSTANCING_ON
-          hasDiscard: 1
         - Keywords:
           - SHADOWS_DEPTH
-          hasDiscard: 0
         - Keywords:
           - SHADOWS_CUBE
-          hasDiscard: 0
         KeywordsMinimalCardinality: 2
         ContainsInvalidVariant: 0
         VariantStructures: []
@@ -21185,6 +22371,182 @@ MonoBehaviour:
       - TCP2_RIM_LIGHTING_LIGHTMASK
       - TCP2_SHADOW_LIGHT_COLOR
       - _ALPHAPREMULTIPLY_ON
+  - ParsedSubShaders:
+    - Index: 0
+      Passes:
+      - Shader: {fileID: 4800000, guid: 20fb5fa09d4675a4e94314a228763c23, type: 3}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 5
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 100\n\nuniform \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform
+            \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform \tmediump vec4 _Color;\nattribute
+            highp vec4 in_POSITION0;\nattribute highp vec4 in_COLOR0;\nattribute
+            highp vec2 in_TEXCOORD0;\nvarying mediump vec4 vs_COLOR0;\nvarying mediump
+            vec2 vs_TEXCOORD0;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    gl_Position = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    u_xlat0 = in_COLOR0 * _Color;\n    vs_COLOR0
+            = u_xlat0;\n    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 100\n\n#ifdef GL_FRAGMENT_PRECISION_HIGH\n   
+            precision highp float;\n#else\n    precision mediump float;\n#endif\nprecision
+            highp int;\nuniform lowp sampler2D _MainTex;\nvarying mediump vec4 vs_COLOR0;\nvarying
+            mediump vec2 vs_TEXCOORD0;\n#define SV_Target0 gl_FragData[0]\nvec4 u_xlat0;\nlowp
+            vec4 u_xlat10_0;\nmediump float u_xlat16_1;\nbool u_xlatb2;\nvoid main()\n{\n   
+            u_xlat10_0 = texture2D(_MainTex, vs_TEXCOORD0.xy);\n    u_xlat16_1 =
+            u_xlat10_0.w * vs_COLOR0.w + -0.00999999978;\n    u_xlat0 = u_xlat10_0
+            * vs_COLOR0;\n    u_xlatb2 = u_xlat16_1<0.0;\n    if(u_xlatb2){discard;}\n   
+            SV_Target0.xyz = u_xlat0.www * u_xlat0.xyz;\n    SV_Target0.w = u_xlat0.w;\n   
+            return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords: []
+          Tags:
+          - Key: CanUseSpriteAtlas
+            Value: true
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: PreviewType
+            Value: Plane
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tmediump vec4 _Color;\nin highp vec4 in_POSITION0;\nin highp vec4 in_COLOR0;\nin
+            highp vec2 in_TEXCOORD0;\nout mediump vec4 vs_COLOR0;\nout mediump vec2
+            vs_TEXCOORD0;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n    u_xlat0
+            = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n    u_xlat0
+            = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    gl_Position = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    u_xlat0 = in_COLOR0 * _Color;\n    vs_COLOR0
+            = u_xlat0;\n    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nUNITY_LOCATION(0) uniform mediump sampler2D _MainTex;\nin
+            mediump vec4 vs_COLOR0;\nin mediump vec2 vs_TEXCOORD0;\nlayout(location
+            = 0) out mediump vec4 SV_Target0;\nvec4 u_xlat0;\nmediump vec4 u_xlat16_0;\nmediump
+            float u_xlat16_1;\nbool u_xlatb2;\nvoid main()\n{\n    u_xlat16_0 = texture(_MainTex,
+            vs_TEXCOORD0.xy);\n    u_xlat16_1 = u_xlat16_0.w * vs_COLOR0.w + -0.00999999978;\n   
+            u_xlat0 = u_xlat16_0 * vs_COLOR0;\n    u_xlatb2 = u_xlat16_1<0.0;\n   
+            if(u_xlatb2){discard;}\n    SV_Target0.xyz = u_xlat0.www * u_xlat0.xyz;\n   
+            SV_Target0.w = u_xlat0.w;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords: []
+          Tags:
+          - Key: CanUseSpriteAtlas
+            Value: true
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: PreviewType
+            Value: Plane
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        DefinedKeywords:
+        - STEREO_CUBEMAP_RENDER_ON
+        - STEREO_INSTANCING_ON
+        - STEREO_MULTIVIEW_ON
+        - UNITY_SINGLE_PASS_STEREO
+        KeywordGroups: []
+        KeywordsMinimalCardinality: 0
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 5
+          shader: {fileID: 4800000, guid: 20fb5fa09d4675a4e94314a228763c23, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords: []
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: 20fb5fa09d4675a4e94314a228763c23, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords: []
+        CompilationErrors: []
+        HasDepthReader: 0
+        Id: 0
+        SubShaderIndex: 0
+        SerializedObjectId: 0
+        Tags:
+        - Key: CanUseSpriteAtlas
+          Value: true
+        - Key: IGNOREPROJECTOR
+          Value: true
+        - Key: PreviewType
+          Value: Plane
+        - Key: QUEUE
+          Value: Transparent
+        - Key: RenderType
+          Value: Transparent
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: -1
+      Shader: {fileID: 4800000, guid: 20fb5fa09d4675a4e94314a228763c23, type: 3}
+      Tags:
+      - Key: CanUseSpriteAtlas
+        Value: true
+      - Key: IGNOREPROJECTOR
+        Value: true
+      - Key: PreviewType
+        Value: Plane
+      - Key: QUEUE
+        Value: Transparent
+      - Key: RenderType
+        Value: Transparent
+    Shader: {fileID: 4800000, guid: 20fb5fa09d4675a4e94314a228763c23, type: 3}
+    ShaderPath: Assets/_Assistance/UIParticleConverter/Runtime/Resources/Shaders/UIAdditive.shader
+    ShaderDefinedKeywords:
+    - STEREO_CUBEMAP_RENDER_ON
+    - STEREO_INSTANCING_ON
+    - STEREO_MULTIVIEW_ON
+    - UNITY_SINGLE_PASS_STEREO
+    fallbackShader: {fileID: 0}
+    CompilationErrors: []
+    Variants:
+    - shaderCompilerPlatform: 5
+      shader: {fileID: 4800000, guid: 20fb5fa09d4675a4e94314a228763c23, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords: []
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: 20fb5fa09d4675a4e94314a228763c23, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords: []
   - ParsedSubShaders:
     - Index: 0
       Passes:
@@ -21753,11 +23115,9 @@ MonoBehaviour:
         - Keywords:
           - _
           - UNITY_UI_CLIP_RECT
-          hasDiscard: 1
         - Keywords:
           - _
           - UNITY_UI_ALPHACLIP
-          hasDiscard: 1
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -22028,7 +23388,6 @@ MonoBehaviour:
           - FOG_LINEAR
           - FOG_EXP
           - FOG_EXP2
-          hasDiscard: 1
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
         VariantStructures:
@@ -22099,29 +23458,14 @@ MonoBehaviour:
       subShaderIndex: 0
       upToDate: 0
       keywords: []
-  _modifiedShaders:
-  - Assets/3D_Art/Shaders/water/Shaders/ToonWater.shader
-  - Assets/_Assistance/_Hole/Tony/Table_Toon_BuiltIn.shader
-  - Assets/_Assistance/_Hole/URP/TableShader.shader
-  - Assets/3D_Art/Shaders/frozen.shadergraph
-  - Assets/3D_Art/Shaders/lava.shadergraph
-  - Assets/_Assistance/UIParticleConverter/Runtime/Resources/Shaders/UIAdditive.shader
-  - Assets/_Assistance/Face/Tony/FaceFlipbook_BuiltIn.shader
-  - Assets/_Assistance/_Hole/Tony/Hole_BuiltIn.shader
-  - Assets/3D_Art/Shaders/ice.shadergraph
-  - Assets/3D_Art/Shaders/Outline ShaderGraph.shadergraph
-  - Assets/3D_Art/Shaders/block.shadergraph
-  - Assets/3D_Art/Shaders/water/Shaders/mis_tray.shadergraph
-  - Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph
-  - Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/BokehDepthOfField.shader
-  - Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainLit.shader
-  invalidShaders: 1
+  _modifiedShaders: []
+  invalidShaders: 0
   _sceneLightData:
     PointLightCount: 0
     SpotLightCount: 0
-    DirectionalLightCount: 0
-    LightmapOn: 0
-    DirlightmapCombined: 0
+    DirectionalLightCount: 1
+    LightmapOn: 1
+    DirlightmapCombined: 1
     DirectionalCookieExists: 0
     PointCookieExists: 0
     SpotCookieExists: 0
