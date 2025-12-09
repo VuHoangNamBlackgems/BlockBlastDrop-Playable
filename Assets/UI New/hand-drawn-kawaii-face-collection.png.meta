@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: ff2d411cbc4d90f4d912df6c1937e29e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_54
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1099
+        width: 91
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b265204dd57a7b4d88a69cbad553051
+      internalID: 1151935192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_55
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1099
+        width: 92
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8716f0efbe6293745bb3b6e071a66fba
+      internalID: 1765529581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1045
+        width: 72
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08826bae2cfd03f40a002307717dbb42
+      internalID: 1503149477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_64
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1057
+        width: 96
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce651143f80a9348848efe1128c93e4
+      internalID: 355804632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_65
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1045
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c800535f32a4da488b7e2421d1fa11e
+      internalID: -1132828220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 808
+        width: 97
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6888c7dfa03d02b448b0348e7a7a68a2
+      internalID: -1802833385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_72
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 808
+        width: 98
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72e83b8ff5008e43bfd1177994f34c0
+      internalID: -276313478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_80
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 746
+        width: 72
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe62206b8f0edfd4abc94501dd16fdb0
+      internalID: -1497055940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_123
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 195
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08193142cd37634e9f6ced837e939c8
+      internalID: 213161013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_124
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 195
+        width: 110
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18311796e740d704194c560bdb7294e4
+      internalID: -1826028621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_140
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 162
+        width: 72
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f61dc3e8650ae642942aadd7eed2bd7
+      internalID: 218355933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_141
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 150
+        width: 78
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ecd8087cf7d0c489a9d686264dc222
+      internalID: 1980755231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_142
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 162
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc198c10bfebf841bb2e8c4dd7ed692
+      internalID: 2114140459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 776
+        width: 97
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4779a6b529e384badc4bee2c429429
+      internalID: -311978256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-drawn-kawaii-face-collection_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 777
+        width: 97
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c6a3d79895e4944a8c9df86209e2af
+      internalID: 333212517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hand-drawn-kawaii-face-collection_0: -311978256
+      hand-drawn-kawaii-face-collection_1: 333212517
+      hand-drawn-kawaii-face-collection_10: 510155225
+      hand-drawn-kawaii-face-collection_100: 1443488667
+      hand-drawn-kawaii-face-collection_101: -1049088133
+      hand-drawn-kawaii-face-collection_102: 967946693
+      hand-drawn-kawaii-face-collection_103: 1385215362
+      hand-drawn-kawaii-face-collection_104: -1565924810
+      hand-drawn-kawaii-face-collection_105: -1975241203
+      hand-drawn-kawaii-face-collection_106: 158453733
+      hand-drawn-kawaii-face-collection_107: -1823575266
+      hand-drawn-kawaii-face-collection_108: 975438715
+      hand-drawn-kawaii-face-collection_109: 1390232458
+      hand-drawn-kawaii-face-collection_11: 2139383801
+      hand-drawn-kawaii-face-collection_110: -1797986176
+      hand-drawn-kawaii-face-collection_111: -1404587695
+      hand-drawn-kawaii-face-collection_112: 399070905
+      hand-drawn-kawaii-face-collection_113: 1154404306
+      hand-drawn-kawaii-face-collection_114: 1544504870
+      hand-drawn-kawaii-face-collection_115: 1939386019
+      hand-drawn-kawaii-face-collection_116: 361031134
+      hand-drawn-kawaii-face-collection_117: 1905720522
+      hand-drawn-kawaii-face-collection_118: -859586457
+      hand-drawn-kawaii-face-collection_119: -1352669698
+      hand-drawn-kawaii-face-collection_12: -741025169
+      hand-drawn-kawaii-face-collection_120: -1486939518
+      hand-drawn-kawaii-face-collection_121: 1263461484
+      hand-drawn-kawaii-face-collection_122: -776095899
+      hand-drawn-kawaii-face-collection_123: 213161013
+      hand-drawn-kawaii-face-collection_124: -1826028621
+      hand-drawn-kawaii-face-collection_125: -1685752244
+      hand-drawn-kawaii-face-collection_126: -1414512722
+      hand-drawn-kawaii-face-collection_127: -837528495
+      hand-drawn-kawaii-face-collection_128: -1835349274
+      hand-drawn-kawaii-face-collection_129: 1049562222
+      hand-drawn-kawaii-face-collection_13: 454594134
+      hand-drawn-kawaii-face-collection_130: 2117941441
+      hand-drawn-kawaii-face-collection_131: -1274299934
+      hand-drawn-kawaii-face-collection_132: -1601711655
+      hand-drawn-kawaii-face-collection_133: 1229063936
+      hand-drawn-kawaii-face-collection_134: -904387233
+      hand-drawn-kawaii-face-collection_135: -1776628170
+      hand-drawn-kawaii-face-collection_136: 928065896
+      hand-drawn-kawaii-face-collection_137: -223562223
+      hand-drawn-kawaii-face-collection_138: -478744143
+      hand-drawn-kawaii-face-collection_139: 2036716277
+      hand-drawn-kawaii-face-collection_14: -1287937856
+      hand-drawn-kawaii-face-collection_140: 218355933
+      hand-drawn-kawaii-face-collection_141: 1980755231
+      hand-drawn-kawaii-face-collection_142: 2114140459
+      hand-drawn-kawaii-face-collection_15: 817825066
+      hand-drawn-kawaii-face-collection_16: 1739051146
+      hand-drawn-kawaii-face-collection_17: 1896076216
+      hand-drawn-kawaii-face-collection_18: 310987569
+      hand-drawn-kawaii-face-collection_19: 240686397
+      hand-drawn-kawaii-face-collection_2: -1096357263
+      hand-drawn-kawaii-face-collection_20: 947967893
+      hand-drawn-kawaii-face-collection_21: 704497631
+      hand-drawn-kawaii-face-collection_22: -1557990846
+      hand-drawn-kawaii-face-collection_23: -307596601
+      hand-drawn-kawaii-face-collection_24: -1609427188
+      hand-drawn-kawaii-face-collection_25: -1856821889
+      hand-drawn-kawaii-face-collection_26: 1236297846
+      hand-drawn-kawaii-face-collection_27: -1964044687
+      hand-drawn-kawaii-face-collection_28: 166442299
+      hand-drawn-kawaii-face-collection_29: -288307897
+      hand-drawn-kawaii-face-collection_3: -933467113
+      hand-drawn-kawaii-face-collection_30: -355933754
+      hand-drawn-kawaii-face-collection_31: 2088909465
+      hand-drawn-kawaii-face-collection_32: -1256807558
+      hand-drawn-kawaii-face-collection_33: -2034472622
+      hand-drawn-kawaii-face-collection_34: 1760201073
+      hand-drawn-kawaii-face-collection_35: 1714792944
+      hand-drawn-kawaii-face-collection_36: -300286587
+      hand-drawn-kawaii-face-collection_37: 194866584
+      hand-drawn-kawaii-face-collection_38: 1740560730
+      hand-drawn-kawaii-face-collection_39: 1875427442
+      hand-drawn-kawaii-face-collection_4: -454549187
+      hand-drawn-kawaii-face-collection_40: 2029912004
+      hand-drawn-kawaii-face-collection_41: -640873212
+      hand-drawn-kawaii-face-collection_42: -167097375
+      hand-drawn-kawaii-face-collection_43: 1406862161
+      hand-drawn-kawaii-face-collection_44: 1532125177
+      hand-drawn-kawaii-face-collection_45: -1732159321
+      hand-drawn-kawaii-face-collection_46: -1852260571
+      hand-drawn-kawaii-face-collection_47: 720068564
+      hand-drawn-kawaii-face-collection_48: -744618642
+      hand-drawn-kawaii-face-collection_49: 462094167
+      hand-drawn-kawaii-face-collection_5: -386406935
+      hand-drawn-kawaii-face-collection_50: 170988123
+      hand-drawn-kawaii-face-collection_51: 1594654570
+      hand-drawn-kawaii-face-collection_52: -2100269471
+      hand-drawn-kawaii-face-collection_53: -886752535
+      hand-drawn-kawaii-face-collection_54: 1151935192
+      hand-drawn-kawaii-face-collection_55: 1765529581
+      hand-drawn-kawaii-face-collection_56: -1061541147
+      hand-drawn-kawaii-face-collection_57: 302758253
+      hand-drawn-kawaii-face-collection_58: 1260522750
+      hand-drawn-kawaii-face-collection_59: -839622624
+      hand-drawn-kawaii-face-collection_6: 1917590023
+      hand-drawn-kawaii-face-collection_60: -936201682
+      hand-drawn-kawaii-face-collection_61: -1134225556
+      hand-drawn-kawaii-face-collection_62: 1672805909
+      hand-drawn-kawaii-face-collection_63: 1503149477
+      hand-drawn-kawaii-face-collection_64: 355804632
+      hand-drawn-kawaii-face-collection_65: -1132828220
+      hand-drawn-kawaii-face-collection_66: 617318858
+      hand-drawn-kawaii-face-collection_67: 552669204
+      hand-drawn-kawaii-face-collection_68: 1637173118
+      hand-drawn-kawaii-face-collection_69: -1672390949
+      hand-drawn-kawaii-face-collection_7: -1484719872
+      hand-drawn-kawaii-face-collection_70: -711232624
+      hand-drawn-kawaii-face-collection_71: -1802833385
+      hand-drawn-kawaii-face-collection_72: -276313478
+      hand-drawn-kawaii-face-collection_73: -1431170723
+      hand-drawn-kawaii-face-collection_74: -1546637254
+      hand-drawn-kawaii-face-collection_75: -2050011130
+      hand-drawn-kawaii-face-collection_76: 249876279
+      hand-drawn-kawaii-face-collection_77: 543273893
+      hand-drawn-kawaii-face-collection_78: 1778338935
+      hand-drawn-kawaii-face-collection_79: -1069573135
+      hand-drawn-kawaii-face-collection_8: -184029203
+      hand-drawn-kawaii-face-collection_80: -1497055940
+      hand-drawn-kawaii-face-collection_81: -864926942
+      hand-drawn-kawaii-face-collection_82: 1644248680
+      hand-drawn-kawaii-face-collection_83: -514360851
+      hand-drawn-kawaii-face-collection_84: -3028200
+      hand-drawn-kawaii-face-collection_85: -998473167
+      hand-drawn-kawaii-face-collection_86: 1250486226
+      hand-drawn-kawaii-face-collection_87: -262281687
+      hand-drawn-kawaii-face-collection_88: -423872379
+      hand-drawn-kawaii-face-collection_89: -935612086
+      hand-drawn-kawaii-face-collection_9: 1268131063
+      hand-drawn-kawaii-face-collection_90: -365216582
+      hand-drawn-kawaii-face-collection_91: 86438586
+      hand-drawn-kawaii-face-collection_92: -330435395
+      hand-drawn-kawaii-face-collection_93: -1650875061
+      hand-drawn-kawaii-face-collection_94: 1427146087
+      hand-drawn-kawaii-face-collection_95: 1643464190
+      hand-drawn-kawaii-face-collection_96: -649214698
+      hand-drawn-kawaii-face-collection_97: -1784090166
+      hand-drawn-kawaii-face-collection_98: 1935619415
+      hand-drawn-kawaii-face-collection_99: 810587789
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

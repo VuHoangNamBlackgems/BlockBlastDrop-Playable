@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013490f1bbf4f20479c9745ba8f65112, type: 3}
+  m_Name: 20 Ice
+  m_EditorClassIdentifier: 
+  BlockMaterial: {fileID: 2100000, guid: 9aa5518bcaa7363438bdcaa5f175d364, type: 2}
+  GateMaterial: {fileID: 2100000, guid: 2ff7de0e5550e8a4e9f112dbbddf58eb, type: 2}
+  ScreenMaterial: {fileID: 2100000, guid: ff3c463e4401f3b4680ad47868d74023, type: 2}
+  objEffect: {fileID: 3164976319743175976, guid: 10eff00b1b1a39145a2e6f35bf57e914, type: 3}
+  ColorEffect: {r: 0.98039216, g: 0.4117647, b: 0.98039216, a: 1}
+  ColorType: 13

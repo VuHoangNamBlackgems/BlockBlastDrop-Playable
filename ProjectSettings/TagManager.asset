@@ -4,6 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Black
+  - GridSquare
   - Green
   - Blue
   - Red
@@ -12,8 +14,6 @@ TagManager:
   - Pink
   - Purple
   - Yellow
-  - GridSquare
-  - Black
   layers:
   - Default
   - TransparentFX

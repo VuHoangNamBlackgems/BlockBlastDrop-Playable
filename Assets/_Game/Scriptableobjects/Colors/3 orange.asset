@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013490f1bbf4f20479c9745ba8f65112, type: 3}
+  m_Name: 3 orange
+  m_EditorClassIdentifier: 
+  BlockMaterial: {fileID: 2100000, guid: 4295af0935b1bbc4f84603dc2da6643a, type: 2}
+  GateMaterial: {fileID: 2100000, guid: 44ac44c2b42cb0143a2cff4ed2c59536, type: 2}
+  ScreenMaterial: {fileID: 2100000, guid: 169f6fb4432ebee4c89d3c4103994482, type: 2}
+  objEffect: {fileID: 3164976319743175976, guid: 10eff00b1b1a39145a2e6f35bf57e914, type: 3}
+  ColorEffect: {r: 1, g: 0.5764706, b: 0.22352941, a: 1}
+  ColorType: 3

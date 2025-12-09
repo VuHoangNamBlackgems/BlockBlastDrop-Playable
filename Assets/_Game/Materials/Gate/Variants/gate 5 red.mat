@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-413714890654691582
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: gate 5 red
+  m_Shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf, type: 3}
+  m_Parent: {fileID: 2100000, guid: 0e5368365c65b9e469cacea1be2c510e, type: 2}
+  m_ModifiedSerializedProperties: 4
+  m_ValidKeywords:
+  - TCP2_MOBILE
+  - TCP2_REFLECTIONS_FRESNEL
+  - TCP2_SHADOW_LIGHT_COLOR
+  m_InvalidKeywords:
+  - TCP2_UV_NORMALS_FULL
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _IndirectIntensity: 1
+    - _RampSmoothing: 0.88
+    - _RampThreshold: 1
+    - _RimMax: 1.97
+    - _RimMin: 0.667
+    - _SpecularRoughness: 0.08
+    - _SpecularToonSize: 0.001
+    - _SpecularType: 0
+    - _UseMatCap: 0
+    - _UseMobileMode: 1
+    - _UseOutline: 0
+    - _UseRim: 0
+    - _UseSpecular: 0
+    m_Colors:
+    - _BaseColor: {r: 0.93, g: 0.25164706, b: 0.22247058, a: 1}
+    - _SColor: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 1}
+  m_BuildTextureStacks: []
