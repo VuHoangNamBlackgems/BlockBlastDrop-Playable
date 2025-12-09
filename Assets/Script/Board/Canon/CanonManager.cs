@@ -35,7 +35,6 @@ public class CanonManager : MonoBehaviour
 
     public void Start()
     {
-        ValidateMaterialArray();
         StartPeriodicValidation();
 
         // Subscribe to super canon events
@@ -407,11 +406,7 @@ public class CanonManager : MonoBehaviour
         return result;
     }
 
-    private void ValidateMaterialArray()
-    {
-        int enumCount = System.Enum.GetValues(typeof(ColorId)).Length;
-        if (GameConfig.Instance.GetColorCount() != enumCount) { }
-    }
+
 
     private bool CanFormMergeGroup(int colorId)
     {

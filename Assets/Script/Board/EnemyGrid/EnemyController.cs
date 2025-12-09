@@ -40,7 +40,8 @@ public class EnemyController : MonoBehaviour
     {
         ColorId = colorId;
         var r = bodyEnemy.GetComponent<Renderer>();
-        if (r != null) r.material = GameConfig.Instance.GetColorEnemy(ColorId);
+        if (r != null)
+            r.material = GameConfig.Instance.GetColorEnemy(ColorId);
     }
 
 
