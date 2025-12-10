@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene Ver 5 cr.unity
     guid: 2eb5542da1f2c7e4ba70a7c1d4751e4d
   - enabled: 1
-    path: Assets/Scenes/New SceneSSS1.unity
+    path: Assets/Scenes/Map_1.unity
     guid: af7cf4dd53369e24aa256ec050c2dba2
   - enabled: 1
     path: Assets/1_Game/Scenes/GameScene.unity
