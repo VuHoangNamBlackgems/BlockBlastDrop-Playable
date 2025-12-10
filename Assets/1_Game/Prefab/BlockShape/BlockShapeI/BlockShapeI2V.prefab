@@ -300,6 +300,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4934091190940964581, guid: 31b3050750461634ebd0ed8d5c1f3b6a, type: 3}
+      propertyPath: color
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934091190940964581, guid: 31b3050750461634ebd0ed8d5c1f3b6a, type: 3}
       propertyPath: Direction
       value: 
       objectReference: {fileID: 1859874216416473752}
@@ -333,7 +337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7227761495444116913, guid: 31b3050750461634ebd0ed8d5c1f3b6a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1.836
       objectReference: {fileID: 0}
     - target: {fileID: 7227761495444116913, guid: 31b3050750461634ebd0ed8d5c1f3b6a, type: 3}
       propertyPath: m_LocalRotation.w

@@ -383,7 +383,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6384780382229106530, guid: 967fadf5a09b9e342847f910eb30315c, type: 3}
       propertyPath: theme
-      value: 0
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6384780382229106530, guid: 967fadf5a09b9e342847f910eb30315c, type: 3}
+      propertyPath: difficultyLevel
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 6384780382229106530, guid: 967fadf5a09b9e342847f910eb30315c, type: 3}
       propertyPath: objLevels.Array.size
@@ -392,7 +396,7 @@ PrefabInstance:
     - target: {fileID: 6384780382229106530, guid: 967fadf5a09b9e342847f910eb30315c, type: 3}
       propertyPath: objLevels.Array.data[0]
       value: 
-      objectReference: {fileID: 5701164039926977429, guid: f2af9b45e6841b945a679b900a088bdd, type: 3}
+      objectReference: {fileID: 5701164039926977429, guid: 43121e3f340f9964eaecf18aea841077, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1875,7 +1879,7 @@ Transform:
   m_GameObject: {fileID: 1668817654}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5566581, y: 0, z: 0, w: 0.8307417}
-  m_LocalPosition: {x: 0, y: 55.49, z: -25.75}
+  m_LocalPosition: {x: 0, y: 55.49, z: -28.381}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1897,8 +1901,8 @@ MonoBehaviour:
   - pos: {x: 0, y: 55.5, z: -25.7}
     fieldOfView: 22
   viewCameraVerti:
-  - pos: {x: 0, y: 55.5, z: -25.7}
-    fieldOfView: 22
+  - pos: {x: 0, y: 55.5, z: -28.381}
+    fieldOfView: 26.5
   currentViewIndex: 0
   _currentScreen: 0
 --- !u!1 &1857084439

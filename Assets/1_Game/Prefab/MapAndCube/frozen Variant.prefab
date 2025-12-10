@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 425276580847088653, guid: 7e47e39eb0016f04f9af613285555297, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.5253127
+      value: -0.918
       objectReference: {fileID: 0}
     - target: {fileID: 425276580847088653, guid: 7e47e39eb0016f04f9af613285555297, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2348943
+      value: -0.23489437
       objectReference: {fileID: 0}
     - target: {fileID: 425276580847088653, guid: 7e47e39eb0016f04f9af613285555297, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.7842278
+      value: 2.6240005
       objectReference: {fileID: 0}
     - target: {fileID: 425276580847088653, guid: 7e47e39eb0016f04f9af613285555297, type: 3}
       propertyPath: m_LocalRotation.w
@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 425276580847088653, guid: 7e47e39eb0016f04f9af613285555297, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1057556877918777015, guid: 7e47e39eb0016f04f9af613285555297, type: 3}
       propertyPath: m_Name
@@ -130,7 +130,7 @@ MonoBehaviour:
   cubeTemp: {fileID: 3983010453912717062}
   iceBreakParticle: {fileID: 7247143568009780217}
   CubeColor: 5
-  FrozenRemain: 1
+  FrozenRemain: 10
 --- !u!114 &8716387282406521055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,7 +196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7804986207028717487, guid: 7ac91ccea0e1e2141885b9b7da345ef0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.71
+      value: 1.835
       objectReference: {fileID: 0}
     - target: {fileID: 7804986207028717487, guid: 7ac91ccea0e1e2141885b9b7da345ef0, type: 3}
       propertyPath: m_LocalPosition.z
