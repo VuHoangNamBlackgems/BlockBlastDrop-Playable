@@ -295,7 +295,6 @@ public class Shape : MonoBehaviour
         Vector3 hitPoint = ray.GetPoint(enter);
         targetPos = hitPoint + dragOffset;
         targetPos.y = transform.position.y;
-
         OnLimitDirection();
 
         TryMoveWithCollision(targetPos);
@@ -312,7 +311,6 @@ public class Shape : MonoBehaviour
         }
 
         Vector3 originalPos = transform.position;
-
         // Try stepping toward desired position
         Vector3 lastValid = StepTowards(originalPos, desiredWorldPos);
         if (lastValid != originalPos)

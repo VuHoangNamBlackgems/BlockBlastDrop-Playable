@@ -5,8 +5,10 @@ using UnityEngine;
 public class ThemeController : MonoBehaviour
 {
     public static ThemeController Instance;
-    [SerializeField] public MeshRenderer tableMr;
-    [SerializeField] public MeshRenderer spawnerMr;
+    [SerializeField] private MeshRenderer tableMr;
+    [SerializeField] private MeshRenderer spawnerMr;
+    
+    [SerializeField] private MeshRenderer[] tabsMr;
     private void Awake()
     {
         Instance = this;
@@ -20,10 +22,13 @@ public class ThemeController : MonoBehaviour
             Theme selectedTheme = themeData.themes[currentTheme];
             if (selectedTheme != null)
             {
-                tableMr.material = selectedTheme.tableMaterial;
+               // tableMr.material = selectedTheme.tableMaterial;
                 spawnerMr.material = selectedTheme.spawnerMaterial;
 
-              
+                foreach (var item in tabsMr)
+                {
+                    item.material = selectedTheme.tableMaterial;
+                }
             }
         }
     }
