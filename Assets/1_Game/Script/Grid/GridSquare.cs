@@ -71,7 +71,7 @@ public class GridSquare : MonoBehaviour
             ColorSquare.material = currentColor;
         }
     }
-
+/*
     private void OnTriggerEnter(Collider other)
     {
         int layer = other.gameObject.layer;
@@ -119,7 +119,7 @@ public class GridSquare : MonoBehaviour
 
         cachedCarrier = null;
         SetScaleSquare(false);
-    }
+    }*/
 
     private void OnDestroy()
     {

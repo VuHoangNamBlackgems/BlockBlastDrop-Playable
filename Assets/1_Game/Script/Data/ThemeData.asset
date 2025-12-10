@@ -42,13 +42,13 @@ MonoBehaviour:
     borderMaterial: {fileID: 2100000, guid: 7e73f58eacf6d9d41a803d72c1652f64, type: 2}
   - themeName: Theme 4
     themeId: 3
-    tableMaterial: {fileID: 2100000, guid: c9e6e1ecb70aa254abb4b811a545ed56, type: 2}
-    spawnerMaterial: {fileID: 2100000, guid: 12096390242493645b6a0d012353d3ca, type: 2}
-    borderHolderBaseMaterial: {fileID: 2100000, guid: 9dc1d3a5887eae7438d99bab75bb1327, type: 2}
-    gateMaterial: {fileID: 2100000, guid: a4a6169d0e7250a45960d3bb611a585a, type: 2}
-    gridMaterial: {fileID: 2100000, guid: 84670b9baaa419043985e52d59ebf4c5, type: 2}
-    topGridMaterial: {fileID: 2100000, guid: 47620c9001e620c4f86cc192aeab644e, type: 2}
-    borderMaterial: {fileID: 2100000, guid: d1a25571f4b641a4eba22017a53266cb, type: 2}
+    tableMaterial: {fileID: 2100000, guid: ba74d0898beac634597fe5f50c86482e, type: 2}
+    spawnerMaterial: {fileID: 2100000, guid: 85a96ecdafebd4544adf8906072b0953, type: 2}
+    borderHolderBaseMaterial: {fileID: 2100000, guid: cf94489f2bcd10f42b6a94da8e0c4c0a, type: 2}
+    gateMaterial: {fileID: 2100000, guid: 160c3eb6eb090114d8bcc3e2a1a757e9, type: 2}
+    gridMaterial: {fileID: 2100000, guid: 12bcb52665ffb2644be3fb8cf7f4d809, type: 2}
+    topGridMaterial: {fileID: 2100000, guid: f97790b0c27ee404696c9fc14d66571c, type: 2}
+    borderMaterial: {fileID: 2100000, guid: 7a3b2232e7ba3a84dbd60621ca8d57c3, type: 2}
   - themeName: Theme 5
     themeId: 4
     tableMaterial: {fileID: 2100000, guid: 7d6dc696af54b994c976d78730c58060, type: 2}

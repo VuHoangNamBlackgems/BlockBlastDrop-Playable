@@ -8,7 +8,8 @@ public class Cube : MonoBehaviour
     [SerializeField] FaceEmoji faceEmoji;
     [SerializeField] FontController text;
 
-
+    public MeshRenderer meshRenderer;
+    public BoxCollider boxCollider;
     public Grid grid;
 
     BoardController boardController => BoardController.Instance;
@@ -28,7 +29,7 @@ public class Cube : MonoBehaviour
         text.ShowText(10);
         gameObject.tag = color.ToString();
         var mr = transform.GetChild(0).GetComponent<MeshRenderer>();
-        if (mr) mr.material = GameConfig.Instance.GetColorCube((int)color);
+        meshRenderer.material = GameConfig.Instance.GetColorCube((int)color);
         faceEmoji.PlayRandomEmoji();
     }
 

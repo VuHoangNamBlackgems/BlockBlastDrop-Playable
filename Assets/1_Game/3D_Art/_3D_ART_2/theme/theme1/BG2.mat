@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BG2
-  m_Shader: {fileID: -6465566751694194690, guid: 3f7faf3d1f13d88468b90f59dfd666ef, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6efd6d0bd3062f4419a1db32bd9cba44, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1ae22f6c88041a9438dda8ad2a34fb23, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9428d478fdc11154486a47c8aa4cde7f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -60,6 +60,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -119,7 +123,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.43329477, g: 0.6213621, b: 0.8584906, a: 1}
-    - _Color: {r: 0.43137255, g: 0.61960787, b: 0.85882354, a: 1}
+    - _Color: {r: 0.40824136, g: 0.52381223, b: 0.6226415, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class MPool
 {
     private Stack<GameObject> stack = new Stack<GameObject>();

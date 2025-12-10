@@ -165,6 +165,14 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 4893242056078481397}
+    - target: {fileID: 8230214038929745013, guid: dda1f06bbbb6f0a4a9647e13ee8a27da, type: 3}
+      propertyPath: boxCollider
+      value: 
+      objectReference: {fileID: 6586287826195161745}
+    - target: {fileID: 8230214038929745013, guid: dda1f06bbbb6f0a4a9647e13ee8a27da, type: 3}
+      propertyPath: meshRenderer
+      value: 
+      objectReference: {fileID: 6954360725446189751}
     - target: {fileID: 8415190124588254650, guid: dda1f06bbbb6f0a4a9647e13ee8a27da, type: 3}
       propertyPath: m_Layer
       value: 10
@@ -254,3 +262,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!23 &6954360725446189751 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2249335363276902620, guid: dda1f06bbbb6f0a4a9647e13ee8a27da, type: 3}
+  m_PrefabInstance: {fileID: 9202512804563513963}
+  m_PrefabAsset: {fileID: 0}

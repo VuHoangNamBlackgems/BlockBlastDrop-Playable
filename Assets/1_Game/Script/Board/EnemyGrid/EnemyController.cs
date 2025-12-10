@@ -117,6 +117,7 @@ public class EnemyController : MonoBehaviour
     }
 
     ParticleSystem ps;
+    ColorParticle cl;
     public void OnHit()
     {
         isBeingDestroyed = true;
@@ -134,15 +135,16 @@ public class EnemyController : MonoBehaviour
         hitSequence.Join(scaleUpTween);
         scaleUpTween.OnComplete(() =>
         {
+            Color colorParticle = GameConfig.Instance.GetColorBlood(ColorId).color;
             GameObject objParticle = PoolManager.Instance.GetFromPool(BoardController.Instance.blastParticle);
-            ps = objParticle.GetComponent<ParticleSystem>();
-            ps.transform.SetPositionAndRotation(transform.position, Quaternion.identity);
+            cl = objParticle.GetComponent<ColorParticle>();
+
+            cl.transform.position = transform.position;
+            cl.transform.rotation = Quaternion.identity;
             objParticle.SetActive(true);
 
-            var r = bodyEnemy.GetComponent<Renderer>();
-            Color colorParticle = GameConfig.Instance.GetColorBlood(ColorId).color;
-            ps.GetComponent<ColorParticle>().setColorParticle(colorParticle);
-            ps.Play();
+            cl.setColorParticle(colorParticle);
+            cl.Play();
         });
         float tiltX = Random.Range(10, 30f);
         float tiltY = Random.Range(-20f, 20f);

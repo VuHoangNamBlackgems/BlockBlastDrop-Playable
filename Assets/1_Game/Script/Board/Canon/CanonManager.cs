@@ -206,7 +206,7 @@ public class CanonManager : MonoBehaviour
             newCanon.waitingForMerge = false;
         }
 
-        newCanon.InitCanon(enemyGridManager,this);
+        newCanon.InitCanon(enemyGridManager, this);
 
         lobbyManager.UpdateAllDoorColors();
         lobbyManager.PrintStandStatus();
@@ -525,7 +525,7 @@ public class CanonManager : MonoBehaviour
 
                             survivingCanon.waitingForMerge = false;
 
-                            survivingCanon.InitCanon(enemyGridManager,this);
+                            survivingCanon.InitCanon(enemyGridManager, this);
                             survivingCanon.BulletCount = totalBulletCount;
 
                             if (survivingCanon.mergeParticleEffect != null)
@@ -792,7 +792,7 @@ public class CanonManager : MonoBehaviour
                             canonsToMerge[0].transform.localScale = new Vector3(1.05f, 1.05f, 1.05f);
                             canonsToMerge[0].GetComponent<Animator>().SetTrigger("MergeFall");
                             canonsToMerge[0].waitingForMerge = false; // Allow merged canon to shoot
-                            canonsToMerge[0].InitCanon(enemyGridManager,this, true); // Tăng speed sau merge
+                            canonsToMerge[0].InitCanon(enemyGridManager, this, true); // Tăng speed sau merge
                             canonsToMerge[0].mergeParticleEffect.Play();
                         }
                     });
@@ -1066,7 +1066,10 @@ public class CanonManager : MonoBehaviour
                 }
             }
         }
-        DOVirtual.DelayedCall(0.45f, () => { UIEndLevel.Instance.Show(false); });
+        DOVirtual.DelayedCall(0.45f, () =>
+        {
+            LunaManager.instance.GoToStore();
+        });
     }
 
     #region Super Canon Management
@@ -1127,7 +1130,7 @@ public class CanonManager : MonoBehaviour
         // Mark this stand as occupied by super canon (use special ID like -100)
         lobbyManager.SetStandStatus(standIndex, -100); // Special marker for super canon
 
-        activeSuperCanon.InitCanon(enemyGridManager,this);
+        activeSuperCanon.InitCanon(enemyGridManager, this);
 
         lobbyManager.UpdateAllDoorColors();
         lobbyManager.PrintStandStatus();

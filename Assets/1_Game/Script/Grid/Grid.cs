@@ -193,7 +193,10 @@ public class Grid : MonoBehaviour
                 _gridSquares.Add(go);
                 _gridSquareColors.Add(-1);
 
-            
+                if (BoardController.Instance != null)
+                {
+                    go.GetComponent<GridSquare>().SetupTheme(BoardController.Instance.currentTheme);
+                }
             }
         }
     }
@@ -243,6 +246,8 @@ public class Grid : MonoBehaviour
             go.transform.localScale = new Vector3(squareScale, squareScale, squareScale);
             _gridSquares.Add(go);
             _gridSquareColors.Add(-1);
+            go.GetComponent<GridSquare>().SetupTheme(BoardController.Instance.currentTheme);
+
         }
     }
     private void CacheSquareRenderers()

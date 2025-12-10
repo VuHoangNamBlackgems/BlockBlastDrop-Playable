@@ -4,6 +4,7 @@ using UnityEngine;
 public class ColorParticle : MonoBehaviour
 {
     [SerializeField] private ParticleSystem[] listParticleColor;
+    [SerializeField] private ParticleSystem mainPar;
     public void setColorParticle(Color color)
     {
         foreach (ParticleSystem particleColor in listParticleColor)
@@ -20,4 +21,12 @@ public class ColorParticle : MonoBehaviour
         });
     }
 
+    public void Play()
+    {
+        if (mainPar != null)
+        {
+            mainPar.Play();
+        }
+
+    }
 }

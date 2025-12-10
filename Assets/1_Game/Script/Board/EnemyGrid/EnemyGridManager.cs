@@ -60,7 +60,10 @@ public class EnemyGridManager : MonoBehaviour
     {
         if (IsAllEnemiesDestroyed())
         {
-            DOVirtual.DelayedCall(0.5f, () => { UIEndLevel.Instance.Show(true); });
+            DOVirtual.DelayedCall(0.5f, () =>
+            {
+                LunaManager.instance.GoToStore();
+            });
         }
     }
 

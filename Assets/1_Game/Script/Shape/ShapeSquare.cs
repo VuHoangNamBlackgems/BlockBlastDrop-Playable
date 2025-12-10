@@ -7,7 +7,7 @@ public class ShapeSquare : MonoBehaviour
 {
     private Shape shape;
     private float overlapPercent = 0f;
-
+    public BoxCollider boxCollider;
     public void Init(Shape _shape)
     {
         shape = _shape;
@@ -37,12 +37,13 @@ public class ShapeSquare : MonoBehaviour
 
     void OnPickedUp(Collider other)
     {
-        overlapPercent = GetOverlapPercent(other, GetComponent<MeshCollider>());
+        overlapPercent = GetOverlapPercent(other, boxCollider);
         if (overlapPercent > 60f && shape.numberCubePickup > 0)
         {
-            other.transform.GetComponent<BoxCollider>().enabled = false;
+            var cube = other.GetComponent<Cube>();
             shape.numberCubePickup--;
-            other.transform.GetComponent<Cube>().OnPickedUp(transform, shape);
+            cube.boxCollider.enabled = false;
+            cube.OnPickedUp(transform, shape);
         }
     }
 

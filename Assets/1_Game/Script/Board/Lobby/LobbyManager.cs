@@ -15,6 +15,8 @@ public class LobbyManager : MonoBehaviour
     {
         SpawnDoors();
     }
+
+
     public void SpawnDoors()
     {
         foreach (Transform child in DoorParent.transform) Destroy(child.gameObject);
@@ -29,6 +31,7 @@ public class LobbyManager : MonoBehaviour
             float xPosition = (i - middleIndex) * doorSpacing;
             door.transform.localPosition = new Vector3(xPosition, 0f, 0f);
             DoorList[i] = door;
+            door.SetupTheme(BoardController.Instance.currentTheme);
 
         }
         for (int i = 0; i < StandStatus.Count; i++) StandStatus[i] = -1;

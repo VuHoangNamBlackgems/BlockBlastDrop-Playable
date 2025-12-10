@@ -1,4 +1,5 @@
-﻿using DG.Tweening;
+﻿using BlackGemsGlobal.SeatAway.GamePlayEvent;
+using DG.Tweening;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,9 +36,8 @@ public class Shape : MonoBehaviour
     public Grid grid;
 
     private readonly List<GameObject> _currentShape = new List<GameObject>();
-    private Transform visualShape;
-    private Vector3 originVisualShape;
-    private Vector3 originPosTextNumber;
+    public Transform visualShape;
+
 
     // Drag
     private Camera mainCam;
@@ -75,21 +75,18 @@ public class Shape : MonoBehaviour
         grid = transform.parent.parent.GetComponentInChildren<Grid>();
         dragPlane = new Plane(Vector3.up, transform.position);
         visualShape = transform.GetChild(2);
-        originVisualShape = visualShape.localPosition;
-        originPosTextNumber = textNumberCubePickup ? textNumberCubePickup.transform.localPosition : Vector3.zero;
+    
     }
 
     private void Start()
     {
         InitialSetup();
         CreateShape();
-        TrySnapToGrid();
     }
 
     private void InitialSetup()
     {
         UpdateNumberCubePickup();
-        UpdateVisualDirection();
         gameObject.tag = color.ToString();
         if (visualShape && visualShape.childCount > 0)
         {
@@ -98,7 +95,6 @@ public class Shape : MonoBehaviour
         }
     }
 
-    #region Shape Generation
     public void CreateShape()
     {
         int totalSquareNumber = GetNumberOfSquare(CurrentShapeData);
@@ -260,113 +256,36 @@ public class Shape : MonoBehaviour
         }
         return shiftOnX;
     }
-    #endregion
-    private void Update()
+
+    public void OnMouseButtonDown(Vector3 hit)
     {
-        if (visualShape)
-        {
-            visualShape.localPosition = isDragging ? originVisualShape + new Vector3(0, shapeSelectedPitch, 0) : originVisualShape;
-            visualShape.GetChild(1).gameObject.SetActive(isDragging);
-        }
+        AudioController.Instance.SelectShapeSound();
+        boardController.startCountTime = false;
+        isDragging = true;
+        dragOffset = transform.position - hit;
+        dragPlane = new Plane(Vector3.up, transform.position);
 
-
-        if (textNumberCubePickup)
-            textNumberCubePickup.transform.localPosition =
-                isDragging ? (originPosTextNumber + new Vector3(0, shapeSelectedPitch, 0)) : originPosTextNumber;
-
-#if UNITY_EDITOR
-        HandleMouseDrag();
-#else
-        HandleTouchDrag();
-#endif
+        // record input start for swipe
+        inputStartPos = Input.mousePosition;
+        inputStartTime = Time.time;
+        inputStartSnapped = GetSnappedPosition(transform.position);
     }
-
-    #region Drag
-    private void HandleMouseDrag()
+    public void OnMouseButtonUp()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out RaycastHit hit) && hit.transform.IsChildOf(transform))
-            {
-              //  Vibration.Vibrate(5);
-                AudioController.Instance.SelectShapeSound();
-                boardController.startCountTime = false;
-                isDragging = true;
-                dragOffset = transform.position - hit.point;
-                dragPlane = new Plane(Vector3.up, transform.position);
-
-                // record input start for swipe
-                inputStartPos = Input.mousePosition;
-                inputStartTime = Time.time;
-                inputStartSnapped = GetSnappedPosition(transform.position);
-            }
-        }
-
         if (isDragging)
-            MoveShapeWithRay(mainCam.ScreenPointToRay(Input.mousePosition));
-
-        if (Input.GetMouseButtonUp(0))
         {
-            if (isDragging)
-            {
-              //  Vibration.Vibrate(5);
-                AudioController.Instance.DeselectShapeSound();
-                // handle quick swipe (mouse)
-                TryHandleSwipe(Input.mousePosition, Time.time);
-                boardController.startCountTime = true;
-                isDragging = false;
+            //  Vibration.Vibrate(5);
+            AudioController.Instance.DeselectShapeSound();
+            TryHandleSwipe(Input.mousePosition, Time.time);
+            boardController.startCountTime = true;
+            isDragging = false;
 
-                // always snap after release; if swipe moved the shape this will snap it to the grid
-                TrySnapToGrid();
-            }
-        }
-
-    }
-
-    private void HandleTouchDrag()
-    {
-        if (Input.touchCount == 0) return;
-        Touch touch = Input.GetTouch(0);
-        Ray ray = mainCam.ScreenPointToRay(touch.position);
-
-        if (touch.phase == TouchPhase.Began)
-        {
-            if (Physics.Raycast(ray, out RaycastHit hit) && hit.transform.IsChildOf(transform))
-            {
-             //   Vibration.Vibrate(5);
-                AudioController.Instance.SelectShapeSound();
-                boardController.startCountTime = false;
-                isDragging = true;
-                dragOffset = transform.position - hit.point;
-                dragPlane = new Plane(Vector3.up, transform.position);
-
-                // record input start for swipe
-                inputStartPos = touch.position;
-                inputStartTime = Time.time;
-                inputStartSnapped = GetSnappedPosition(transform.position);
-            }
-        }
-        else if (touch.phase == TouchPhase.Moved && isDragging)
-        {
-            MoveShapeWithRay(ray);
-        }
-        else if (touch.phase == TouchPhase.Ended)
-        {
-            if (isDragging)
-            {
-              //  Vibration.Vibrate(5);
-                AudioController.Instance.DeselectShapeSound();
-                // handle quick swipe (touch)
-                TryHandleSwipe(touch.position, Time.time);
-                boardController.startCountTime = true;
-                isDragging = false;
-                TrySnapToGrid();
-            }
+            // always snap after release; if swipe moved the shape this will snap it to the grid
+            TrySnapToGrid();
         }
     }
-
-    private void MoveShapeWithRay(Ray ray)
+    
+    public void MoveShapeWithRay(Ray ray)
     {
         if (!dragPlane.Raycast(ray, out float enter)) return;
 
@@ -375,9 +294,7 @@ public class Shape : MonoBehaviour
         targetPos.y = transform.position.y;
 
         OnLimitDirection();
-        //CalculatorBoundary();
 
-        // Try to move while preventing penetration. If blocked, try sliding along X or Z.
         TryMoveWithCollision(targetPos);
     }
 
@@ -640,7 +557,6 @@ public class Shape : MonoBehaviour
 
         return false;
     }
-    #endregion
 
     
 
@@ -650,14 +566,7 @@ public class Shape : MonoBehaviour
         if (textNumberCubePickup) textNumberCubePickup.ShowText(numberCubePickup);
     }
 
-    void UpdateVisualDirection()
-    {
-        if (Direction)
-        {
-            Direction.GetChild(0).gameObject.SetActive(limitDirection == LimitDirection.Horizontal);
-            Direction.GetChild(1).gameObject.SetActive(limitDirection == LimitDirection.Vertical);
-        }
-    }
+ 
     #endregion
 
     private void OnDestroy()
