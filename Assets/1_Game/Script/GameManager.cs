@@ -15,11 +15,24 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         GameEventManager.RegisterEvent(GameEventManager.EventId.StartGame, OnStart);
+        GameEventManager.RegisterEvent(GameEventManager.EventId.Luna, OnBlockStore);
 
     }
     private void OnDestroy()
     {
         GameEventManager.UnRegisterEvent(GameEventManager.EventId.StartGame, OnStart);
+        GameEventManager.UnRegisterEvent(GameEventManager.EventId.Luna, OnBlockStore);
+
+    }
+
+    int indexLuna = 0;
+    private void OnBlockStore()
+    {
+        indexLuna++;
+        if (indexLuna >= 3)
+        {
+            LunaManager.instance.GoToStore();
+        }
 
     }
 

@@ -27,6 +27,7 @@ namespace BlackGemsGlobal.SeatAway.GamePlayEvent
             Effect_2,
             BirdIQ,
             Ice,
+            Luna,
 
         }
         

@@ -47255,7 +47255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be387d04a448def4fbc8be8a1de330c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelScale: 0.9
+  levelScale: 1
   color: 4
   numberCubePickup: 4
   CurrentShapeData: {fileID: 11400000, guid: b7b0ada4d3d30e445a068cea6e59716b, type: 2}
@@ -67662,7 +67662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be387d04a448def4fbc8be8a1de330c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelScale: 0.9
+  levelScale: 1
   color: 2
   numberCubePickup: 2
   CurrentShapeData: {fileID: 11400000, guid: a9ffd0e5b24fbcc449458f5a4e204b26, type: 2}
@@ -68015,7 +68015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be387d04a448def4fbc8be8a1de330c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelScale: 0.9
+  levelScale: 1
   color: 4
   numberCubePickup: 1
   CurrentShapeData: {fileID: 11400000, guid: ce833dc7bca0b5e4598fa344c8bae733, type: 2}
@@ -77978,7 +77978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be387d04a448def4fbc8be8a1de330c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelScale: 0.9
+  levelScale: 1
   color: 7
   numberCubePickup: 4
   CurrentShapeData: {fileID: 11400000, guid: 631d93da38760fb49a3537c5c6096264, type: 2}
@@ -103235,7 +103235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be387d04a448def4fbc8be8a1de330c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelScale: 0.9
+  levelScale: 1
   color: 4
   numberCubePickup: 1
   CurrentShapeData: {fileID: 11400000, guid: ce833dc7bca0b5e4598fa344c8bae733, type: 2}
@@ -134072,7 +134072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be387d04a448def4fbc8be8a1de330c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelScale: 0.9
+  levelScale: 1
   color: 6
   numberCubePickup: 4
   CurrentShapeData: {fileID: 11400000, guid: b7b0ada4d3d30e445a068cea6e59716b, type: 2}
@@ -134419,7 +134419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be387d04a448def4fbc8be8a1de330c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelScale: 0.9
+  levelScale: 1
   color: 0
   numberCubePickup: 2
   CurrentShapeData: {fileID: 11400000, guid: 23ce84a6bcabb3d409bc9ebf281c2f55, type: 2}

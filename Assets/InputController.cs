@@ -16,12 +16,11 @@ public class InputController : MonoBehaviour
             if (Physics.Raycast(ray, out RaycastHit hit, 1000f, clickableLayer))
             {
                 shape = hit.transform.GetComponentInParent<Shape>();
-                Debug.Log("Raycast from mouse position" + shape!= null);
                 if (shape != null)
                 {
                     shape.OnMouseButtonDown(hit.point);
-                    GameEventManager.RaisedEvent(GameEventManager.EventId.StartGame);
 
+                    GameEventManager.RaisedEvent(GameEventManager.EventId.StartGame);
                 }
             }
         }
@@ -30,8 +29,7 @@ public class InputController : MonoBehaviour
             shape.OnMouseButtonUp();
             shape = null;
         }
-
-
+        
         if (Input.GetMouseButton(0) && shape != null)
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);

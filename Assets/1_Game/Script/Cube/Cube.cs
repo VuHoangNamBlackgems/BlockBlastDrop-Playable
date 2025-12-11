@@ -1,3 +1,4 @@
+using BlackGemsGlobal.SeatAway.GamePlayEvent;
 using DG.Tweening;
 using System;
 using UnityEngine;
@@ -34,8 +35,9 @@ public class Cube : MonoBehaviour
     }
 
     public void OnPickedUp(Transform target, Shape shape, Action ondone = null)
-    {
-     //   Vibration.Vibrate(5);
+    {   
+        GameEventManager.RaisedEvent(GameEventManager.EventId.Luna);
+        //   Vibration.Vibrate(5);
         transform.parent = target;
         faceEmoji.Play("Pickup");
 
